@@ -1,43 +1,486 @@
+/* ----- CSS RESET ----- */
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+margin: 0;
+padding: 0;
+}
+img, fieldset {
+border: 0;
+}
+/* set image max width to 100% */
+img {
+max-width: 100%;
+height: auto;
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate( -50%);
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
-}
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    background-color: #FFFFFF;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+
+@font-face {
+    font-family: 'league_spartanregular';
+    src: url('fonts/leaguespartan-bold_2-webfont.eot');
+    src: url('fonts/leaguespartan-bold_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/leaguespartan-bold_2-webfont.woff2') format('woff2'),
+         url('fonts/leaguespartan-bold_2-webfont.woff') format('woff'),
+         url('fonts/leaguespartan-bold_2-webfont.ttf') format('truetype'),
+         url('fonts/leaguespartan-bold_2-webfont.svg#league_spartanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
-ul.posts li {
-    list-style: none;
+
+
+
+@font-face {
+    font-family: 'liberation_sansbold';
+    src: url('fonts/liberationsans-bold-webfont.eot');
+    src: url('fonts/liberationsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/liberationsans-bold-webfont.woff2') format('woff2'),
+         url('fonts/liberationsans-bold-webfont.woff') format('woff'),
+         url('fonts/liberationsans-bold-webfont.ttf') format('truetype'),
+         url('fonts/liberationsans-bold-webfont.svg#liberation_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'liberation_sansregular';
+    src: url('fonts/liberationsans-regular-webfont.eot');
+    src: url('fonts/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/liberationsans-regular-webfont.woff2') format('woff2'),
+         url('fonts/liberationsans-regular-webfont.woff') format('woff'),
+         url('fonts/liberationsans-regular-webfont.ttf') format('truetype'),
+         url('fonts/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserrathairline';
+    src: url('fonts/montserrat-hairline_2-webfont.eot');
+    src: url('fonts/montserrat-hairline_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-hairline_2-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-hairline_2-webfont.woff') format('woff'),
+         url('fonts/montserrat-hairline_2-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-hairline_2-webfont.svg#montserrathairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('fonts/montserrat-light_2-webfont.eot');
+    src: url('fonts/montserrat-light_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-light_2-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-light_2-webfont.woff') format('woff'),
+         url('fonts/montserrat-light_2-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-light_2-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular_2-webfont.eot');
+    src: url('fonts/montserrat-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular_2-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular_2-webfont.woff') format('woff'),
+         url('fonts/montserrat-regular_2-webfont.ttf') format('truetype'),
+         url('fonts/montserrat-regular_2-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+#main{
+    width: 1180px;
+    height: 2165px;
+    background-color: #FFFFFF;
+    
+}
+
+
+#about {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 723px;
+       text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+  
+}
+
+#about:hover {
+    
+    color: #5EDCE1;
+}
+
+
+#work {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 916.5px;
+    top: 60px;
+     text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+
+}
+
+
+
+#work:hover {
+    
+    color: #5EDCE1;
+}
+
+#contact {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+     text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+    
+}
+
+
+
+#contact:hover {
+    
+    color: #5EDCE1;
+}
+
+#logo {
+    width: 130px;
+    height: 30px;
+    position: absolute;
+   left: 0px;
+    top: 60px;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 24px;
+color: #5EDCE1;
+    
+}
+
+#logo:hover {
+    
+    width: 145px;
+    font-size: 27px;
+    left: -5px;
+}
+
+
+#hhgg {
+    width: 457px;
+    height: 457px;
+    background-image: url(images/hhgg.png);
+    position: absolute;
+   left: 0px;
+    top: 251px;
+    
+}
+
+#hhgg:hover{
+    
+    background-image: url(images/hhgg-hover.png);
+    
+}
+
+#editorial {
+    width: 196px;
+    height: 196px;
+    background-color: #5EDCE1;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+   left: 482px;
+    top: 251px;
+    text-align: left;
+    line-height: 34px;  
+    font-family:'league_spartanregular';
+    font-size: 22px;
+color: #FFFFFF;
+    
+}
+
+
+#global {
+    width: 457px;
+    height: 216px;
+    background-color:darkturquoise;
+    position: absolute;
+   right: 0px;
+    top: 251px;
+    background-image: url(images/globalisation.png);
+    
+    
+}
+
+#global:hover {
+    
+    background-image: url(images/globalisation-hover.png);
+    
+}
+
+#seb {
+    width: 457px;
+    height: 216px;
+    background-color:darkturquoise;
+    position: absolute;
+   left: 482px;
+    top: 492px;
+    background-image: url(images/rodrigues.png);
+    
+}
+
+#seb:hover {
+    
+    
+    background-image: url(images/rodrigues-hover.png);
+}
+
+#brody {
+    width: 457px;
+    height: 216px;
+    background-color:darkturquoise;
+    position: absolute;
+   left: 0px;
+    top: 733px;
+    background-image: url(images/triplef.png);
+    
+}
+
+#brody:hover {
+    
+    background-image: url(images/triplef-hover.png);
+}
+
+#dezsete {
+    width: 216px;
+    height: 216px;
+    background-color:darkturquoise;
+    position: absolute;
+   left: 482px;
+    top: 733px;
+    background-image: url(images/dezsete.png);
+    
+}
+
+#dezsete:hover {
+    
+    background-image: url(images/dezsete-hover.png);
+}
+
+#blank {
+    width: 457px;
+    height: 457px;
+    background-color:darkturquoise;
+    position: absolute;
+   left: 723px;
+    top: 733px;
+    background-image: url(images/blank.png);
+    
+}
+
+
+#blank:hover {
+    
+    
+    background-image: url(images/blank-hover.png);
+}
+
+
+#webdesign {
+    width: 196px;
+    height: 196px;
+    background-color: #6DC4F5;
+    position: absolute;
+   left: 0px;
+    top: 1215px;
+     padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 34px;  
+    font-family:'league_spartanregular';
+    font-size: 22px;
+color: #FFFFFF;
+    
+}
+
+#web {
+    width: 457px;
+    height: 457px;
+    background-color:deepskyblue;
+    position: absolute;
+   left: 241px;
+    top: 974px;
+    background-image: url(images/web.png);
+    
+}
+
+#web:hover {
+    
+    background-image: url(images/web-hover.png);
+}
+
+#purpose {
+    width: 457px;
+    height: 216px;
+    background-color:deepskyblue;
+    position: absolute;
+   right:  0px;
+    top: 1215px;
+    background-image: url(images/purpose.png);
+    
+}
+
+#purpose:hover {
+    background-image: url(images/purpose-hover.png);
+    
+}
+
+#app {
+    width: 457px;
+    height: 216px;
+    background-color:deepskyblue;
+    position: absolute;
+   left:  0px;
+    top: 1456px;
+    background-image: url(images/app.png);
+    
+}
+
+#app:hover {
+    
+    background-image: url(images/app-hover.png);
+}
+
+#other {
+    width: 196px;
+    height: 196px;
+    background-color: #5E74E1;
+    position: absolute;
+   left:  482px;
+    top: 1456px;
+      padding-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+    line-height: 34px;  
+    font-family:'league_spartanregular';
+    font-size: 22px;
+color: #FFFFFF;
+    
+}
+
+#craft {
+    width: 457px;
+    height: 457px;
+    background-color:cornflowerblue;
+    position: absolute;
+   right:  0px;
+    top: 1456px;
+    background-image: url(images/craft.png);
+    
+}
+
+#craft:hover {
+    
+    background-image: url(images/craft-hover.png);
+    right: 0px;
+}
+
+#photo {
+    width: 216px;
+    height: 216px;
+    background-color:cornflowerblue;
+    position: absolute;
+   left:  0px;
+    top: 1697px;
+    background-image: url(images/photo.png);
+    
+}
+
+#photo:hover {
+    
+    background-image: url(images/photo-hover.png);
+    
+}
+
+
+#unwritten {
+    width: 216px;
+    height: 216px;
+    background-color:cornflowerblue;
+    position: absolute;
+   left:  241px;
+    top: 1697px;
+    
+}
+
+#footer {
+    width: 1180px;
+    height: 25px;
+
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+       text-align: left;
+    font-family:'montserratlight';
+    font-size: 10px;
+color: #525252;
+    
+    
 }
