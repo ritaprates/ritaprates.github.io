@@ -135,6 +135,13 @@ body {
     
 }
 
+#main-intro{
+    width: 1180px;
+    height: 670px;
+    background-color: #FFFFFF;
+    
+}
+
 
 #about {
     width: 70px;
@@ -260,7 +267,6 @@ color: #FFFFFF;
 #global {
     width: 457px;
     height: 216px;
-    background-color:darkturquoise;
     position: absolute;
    right: 0px;
     top: 251px;
@@ -278,7 +284,6 @@ color: #FFFFFF;
 #seb {
     width: 457px;
     height: 216px;
-    background-color:darkturquoise;
     position: absolute;
    left: 482px;
     top: 492px;
@@ -295,7 +300,6 @@ color: #FFFFFF;
 #brody {
     width: 457px;
     height: 216px;
-    background-color:darkturquoise;
     position: absolute;
    left: 0px;
     top: 733px;
@@ -311,7 +315,6 @@ color: #FFFFFF;
 #dezsete {
     width: 216px;
     height: 216px;
-    background-color:darkturquoise;
     position: absolute;
    left: 482px;
     top: 733px;
@@ -327,7 +330,6 @@ color: #FFFFFF;
 #blank {
     width: 457px;
     height: 457px;
-    background-color:darkturquoise;
     position: absolute;
    left: 723px;
     top: 733px;
@@ -363,7 +365,6 @@ color: #FFFFFF;
 #web {
     width: 457px;
     height: 457px;
-    background-color:deepskyblue;
     position: absolute;
    left: 241px;
     top: 974px;
@@ -379,7 +380,6 @@ color: #FFFFFF;
 #purpose {
     width: 457px;
     height: 216px;
-    background-color:deepskyblue;
     position: absolute;
    right:  0px;
     top: 1215px;
@@ -395,7 +395,6 @@ color: #FFFFFF;
 #app {
     width: 457px;
     height: 216px;
-    background-color:deepskyblue;
     position: absolute;
    left:  0px;
     top: 1456px;
@@ -428,7 +427,6 @@ color: #FFFFFF;
 #craft {
     width: 457px;
     height: 457px;
-    background-color:cornflowerblue;
     position: absolute;
    right:  0px;
     top: 1456px;
@@ -445,7 +443,6 @@ color: #FFFFFF;
 #photo {
     width: 216px;
     height: 216px;
-    background-color:cornflowerblue;
     position: absolute;
    left:  0px;
     top: 1697px;
@@ -483,4 +480,24 @@ color: #FFFFFF;
 color: #525252;
     
     
+}
+
+#intro {
+    width: 1180px;
+    height: 435px;
+   
+    position: absolute;
+   left:  0px;
+    top: 150px;
+    text-align: left;
+    line-height: 72px;  
+    font-family:'league_spartanregular';
+    font-size: 60px;
+color: #5EDCE1;
+    
+}
+
+.intro a:hover {
+    
+    color: #FFFFFF;
 }
