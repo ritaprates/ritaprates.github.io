@@ -178,6 +178,21 @@ color: #525252;
   
 }
 
+#about-active {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 60px;
+    left: 723px;
+       text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #5EDCE1;
+  
+}
+
 #about:hover {
     
     color: #5EDCE1;
@@ -196,6 +211,21 @@ color: #525252;
     font-family:'league_spartanregular';
     font-size: 18px;
 color: #525252;
+
+}
+
+#work-active {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    left: 916.5px;
+    top: 60px;
+     text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #5EDCE1;
 
 }
 
@@ -236,35 +266,9 @@ color: #5EDCE1;
     
 }
 
-#work-active {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    top: 60px;
-     text-align: center;
-    vertical-align:middle;
-    line-height: 30px;  
-    font-family:'league_spartanregular';
-    font-size: 18px;
-color: #5EDCE1;
-    
-}
 
-#about-active {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    top: 60px;
-     text-align: center;
-    vertical-align:middle;
-    line-height: 30px;  
-    font-family:'league_spartanregular';
-    font-size: 18px;
-color: #5EDCE1;
-    
-}
+
+
 
 
 #contact:hover {
