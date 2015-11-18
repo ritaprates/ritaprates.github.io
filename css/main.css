@@ -221,6 +221,21 @@ color: #525252;
     
 }
 
+#contact-active {
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 60px;
+     text-align: center;
+    vertical-align:middle;
+    line-height: 30px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #5EDCE1;
+    
+}
+
 
 
 #contact:hover {
@@ -245,16 +260,7 @@ color: #5EDCE1;
     
 }
 
-.intro a:hover {
-    
-    color: #FFFFFF;
-}
 
-
-.current {
-    
-    color: #5EDCE1;
-}
 
 
 #hhgg {
