@@ -299,11 +299,10 @@ color: #5EDCE1;
 }
 
 
-#preloadedImages
-{
+#preload{
     width: 0px;
     height: 0px;
-    display: inline;
+    display: none;
     background-image: url(images/hhgg-hover.png);
     background-image: url(images/app-hover.png);
     background-image: url(images/blank-hover.png);
