@@ -300,20 +300,7 @@ color: #5EDCE1;
 
 
 #preload{
-    width: 0px;
-    height: 0px;
-    display: none;
-    background-image: url(images/hhgg-hover.png);
-    background-image: url(images/app-hover.png);
-    background-image: url(images/blank-hover.png);
-    background-image: url(images/craft-hover.png);
-    background-image: url(images/dezsete-hover.png);
-      background-image: url(images/globalisation-hover.png);
-      background-image: url(images/photo-hover.png);
-      background-image: url(images/purpose-hover.png);
-      background-image: url(images/rodrigues-hover.png);
-      background-image: url(images/triplef-hover.png);
-      background-image: url(images/web-hover.png);
+   display: none;
 
 }
 
