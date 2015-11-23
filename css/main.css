@@ -584,6 +584,24 @@ color: #FFFFFF;
  
 }
 
+
+.strikethrough {
+    
+    position: relative;
+    
+}
+
+.strikethrough::after{
+     content: '';
+    border-bottom: 4px solid #5E5E5E;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    
+    
+}
+
 #footer {
     width: 1180px;
     height: 25px;
