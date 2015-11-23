@@ -566,8 +566,8 @@ color: #FFFFFF;
 
 #uselessfacts
 {
-    width: 457px;
-    height: 655px;
+    width: 454px;
+    height: 652px;
     position: absolute;
     left: 0px;
     top: 750px;
@@ -576,8 +576,10 @@ color: #FFFFFF;
     font-size: 16px;
     color: #525252;
     border-style: solid;
-    border-width: 2px;
+    border-width: 5px;
     border-color: #5EDCE1;
+    padding-left: 3px;
+    padding-top: 3px;
  
 }
 
