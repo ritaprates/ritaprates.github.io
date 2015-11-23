@@ -561,6 +561,20 @@ color: #FFFFFF;
     
 }
 
+#cv {
+    
+    width: 470px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    top: 630px;
+    text-align: left;
+    font-family: 'league_spartanregular';
+    font-size: 18px;
+    color: #5EDCE1;
+    
+}
+
 #me {
     width: 457px;
     height: 510px;
