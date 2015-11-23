@@ -587,7 +587,7 @@ color: #FFFFFF;
 
 #thingsthatmatter {
     
-    width: 689px;
+    width: 679px;
     height: 635px;
     position: absolute;
     right: 0px;
@@ -601,6 +601,7 @@ color: #FFFFFF;
     border-color: #5EDCE1;
     padding-left: 10px;
     padding-top: 20px;
+    padding-right: 10px;
 
 }
 
