@@ -652,11 +652,12 @@ color: #FFFFFF;
 }
 
 .underline::after{
-     content: '';
+    content: '';
     border-bottom: 3px solid #5EDCE1;
     position: absolute;
     left: 0;
     width: 100%;
+    bottom: 0;
     
     
 }
