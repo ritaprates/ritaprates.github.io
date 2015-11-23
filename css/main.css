@@ -570,12 +570,12 @@ color: #FFFFFF;
     height: 655px;
     position: absolute;
     left: 0px;
-    top: 700px;
+    top: 750px;
      text-align: left;
     font-family: 'league_spartanregular';
     font-size: 16px;
     color: #525252;
-    border: 2px;
+    border-width: medium;
     border-color: #5EDCE1;
  
 }
