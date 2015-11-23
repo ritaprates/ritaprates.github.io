@@ -563,7 +563,7 @@ color: #FFFFFF;
 
 #cv {
     
-    width: 118px;
+    width: 116px;
     height: 35px;
     position: absolute;
     left: 0px;
@@ -572,6 +572,20 @@ color: #FFFFFF;
     font-family: 'league_spartanregular';
     font-size: 20px;
     color: #5EDCE1;
+}
+
+
+#cv:hover {
+     width: 156px;
+    height: 40px;
+    position: absolute;
+    left: 0px;
+    top: 630px;
+    text-align: left;
+    font-family: 'league_spartanregular';
+    font-size: 24px;
+    color: #5EDCE1;
+    
 }
 
 
