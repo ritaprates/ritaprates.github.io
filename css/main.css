@@ -572,6 +572,10 @@ color: #FFFFFF;
     font-family: 'league_spartanregular';
     font-size: 18px;
     color: #5EDCE1;
+    
+}
+
+#cv:hover {
     cursor: pointer;
     cursor: hand;
     
