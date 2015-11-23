@@ -575,11 +575,6 @@ color: #FFFFFF;
     
 }
 
-#cv:hover {
-    cursor: pointer;
-    cursor: hand;
-    
-}
 
 #me {
     width: 457px;
@@ -664,5 +659,10 @@ color: #FFFFFF;
 color: #525252;
     
     
+}
+
+
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
 }
 
