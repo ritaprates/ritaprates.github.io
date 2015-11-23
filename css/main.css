@@ -568,6 +568,7 @@ color: #FFFFFF;
     right: 0px;
     top: 150px;
     background-image: url(images/about.png);
+    background-repeat: no-repeat;
     
 }
 
