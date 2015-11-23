@@ -593,7 +593,7 @@ color: #FFFFFF;
 
 .strikethrough::after{
      content: '';
-    border-bottom: 4px solid #5E5E5E;
+    border-bottom: 3px solid #5EDCE1;
     position: absolute;
     left: 0;
     top: 50%;
