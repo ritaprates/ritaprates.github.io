@@ -585,6 +585,26 @@ color: #FFFFFF;
 }
 
 
+#thingsthatmatter {
+    
+    width: 689px;
+    height: 635px;
+    position: absolute;
+    right: 0px;
+    top: 750px;
+    text-align: left;
+    font-family: 'league_spartanregular';
+    font-size: 16px;
+    color: #525252;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #5EDCE1;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+
 .strikethrough {
     
     position: relative;
