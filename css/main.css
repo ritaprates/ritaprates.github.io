@@ -576,11 +576,11 @@ color: #FFFFFF;
 
 
 #cv:hover {
-     width: 156px;
+     width: 140px;
     height: 40px;
     position: absolute;
-    left: 0px;
-    top: 630px;
+    left: -5px;
+    top: 625px;
     text-align: left;
     font-family: 'league_spartanregular';
     font-size: 24px;
