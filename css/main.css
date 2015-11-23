@@ -563,7 +563,7 @@ color: #FFFFFF;
 
 #cv {
     
-    width: 470px;
+    width: 100px;
     height: 30px;
     position: absolute;
     left: 0px;
@@ -653,7 +653,7 @@ color: #FFFFFF;
 
 .underline::after{
      content: '';
-    border-bottom: 2px solid #5EDCE1;
+    border-bottom: 3px solid #5EDCE1;
     position: absolute;
     left: 0;
     width: 100%;
