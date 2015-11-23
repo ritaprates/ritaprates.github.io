@@ -629,22 +629,7 @@ color: #FFFFFF;
 }
 
 
-.strikethrough {
-    
-    position: relative;
-    
-}
 
-.strikethrough::after{
-     content: '';
-    border-bottom: 2px solid #5EDCE1;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    
-    
-}
 
 #footer {
     width: 1180px;
