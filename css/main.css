@@ -309,7 +309,7 @@ color: #5EDCE1;
     height: 51px;
     position: absolute;
     left: 0px;
-    top: 457px;
+    top: 520px;
     background-image: url(images/insta.png);
     
 }
@@ -324,7 +324,7 @@ color: #5EDCE1;
     height: 51px;
     position: absolute;
     left: 83px;
-    top: 457px;
+    top: 520px;
     background-image: url(images/tumblr.png);
     
 }
@@ -339,7 +339,7 @@ color: #5EDCE1;
     height: 51px;
     position: absolute;
     left: 166px;
-    top: 457px;
+    top: 520px;
     background-image: url(images/behance.png);
     
 }
@@ -349,12 +349,27 @@ color: #5EDCE1;
     background-image: url(images/behance-hover.png);
 }
 
+#contact-text {
+    width: 1180px;
+    height: 200px;
+   
+    position: absolute;
+   left:  0px;
+    top: 220px;
+    text-align: left;
+    line-height: 72px;  
+    font-family:'league_spartanregular';
+    font-size: 60px;
+color: #5EDCE1;
+    
+}
+
 #contact-info {
      width: 400px;
     height: 60px;
     position: absolute;
     right: 0px;
-    top: 457px;
+    top: 520px;
     text-align: right;
     line-height: 30px;  
     font-family:'league_spartanregular';
