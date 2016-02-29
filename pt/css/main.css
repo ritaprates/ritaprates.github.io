@@ -210,7 +210,7 @@ color: #5EDCE1;
     width: 70px;
     height: 30px;
     position: absolute;
-    left: 916.5px;
+    left: 900px;
     top: 60px;
      text-align: center;
     vertical-align:middle;
@@ -225,7 +225,7 @@ color: #525252;
     width: 70px;
     height: 30px;
     position: absolute;
-    left: 916.5px;
+    left: 900px;
     top: 60px;
      text-align: center;
     vertical-align:middle;
@@ -244,7 +244,7 @@ color: #5EDCE1;
 }
 
 #contact {
-    width: 70px;
+    width: 90px;
     height: 30px;
     position: absolute;
     right: 0px;
@@ -259,7 +259,7 @@ color: #525252;
 }
 
 #contact-active {
-    width: 70px;
+    width: 90px;
     height: 30px;
     position: absolute;
     right: 0px;
@@ -754,7 +754,8 @@ color: #FFFFFF;
        text-align: left;
     font-family:'montserratlight';
     font-size: 10px;
-color: #525252;    
+color: #525252;
+    
     
 }
 
@@ -789,3 +790,4 @@ position: absolute;
     color: #525252;
     
 }
+
