@@ -780,6 +780,23 @@ position: absolute;
     
 }
 
+
+#en:hover{
+    
+    color: #5EDCE1;
+}
+
+#en-active {
+    
+    width: 15px;
+    position: relative;
+    float: right;
+     text-align: center;
+    font-family: 'league_spartanregular';
+    font-size: 12px;
+    color: #5EDCE1;
+}
+
 #pt {
     width: 15px;
     position: relative;
@@ -791,3 +808,18 @@ position: absolute;
     
 }
 
+#pt:hover {
+    
+    color: #5EDCE1;
+}
+
+#pt-active {
+    width: 15px;
+    position: relative;
+    float: left;
+     text-align: center;
+    font-family: 'league_spartanregular';
+    font-size: 12px;
+    color: #5EDCE1;
+    
+}

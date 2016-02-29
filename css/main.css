@@ -779,6 +779,11 @@ position: absolute;
     
 }
 
+en:hover {
+    
+    color: #5EDCE1;
+}
+
 #pt {
     width: 15px;
     position: relative;
@@ -788,4 +793,9 @@ position: absolute;
     font-size: 12px;
     color: #525252;
     
+}
+
+#pt:hover {
+    
+    color: #5EDCE1;
 }
