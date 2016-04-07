@@ -764,12 +764,11 @@ color: #FFFFFF;
 #info {
     
     width: 216px;
-    height: 216px;
+    height: 50px;
     position: absolute;
-    top: 1214px;
+    top: 1388px;
     right: 0px;
     text-align: right;
-    vertical-align: bottom;
     font-family: 'league_spartanregular';
     font-size: 20px;
     color: #fc8f8f;
