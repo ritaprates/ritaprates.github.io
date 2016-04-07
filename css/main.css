@@ -87,6 +87,15 @@ body {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Coves-Light';
+    src:url('fonts/Coves-Light.ttf.woff') format('woff'),
+        url('fonts/Coves-Light.ttf.svg#Coves-Light') format('svg'),
+        url('fonts/Coves-Light.ttf.eot'),
+        url('fonts/Coves-Light.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -732,7 +741,7 @@ color: #FFFFFF;
     left: 0px;
     top: 1030px;
      text-align: left;
-    font-family: 'Coves-Bold';
+    font-family: 'Coves-Light';
     font-size: 20px;
     color: #525252;
  
