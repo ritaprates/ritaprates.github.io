@@ -49,38 +49,6 @@ body {
 
 
 @font-face {
-    font-family: 'liberation_sansbold';
-    src: url('fonts/liberationsans-bold-webfont.eot');
-    src: url('fonts/liberationsans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/liberationsans-bold-webfont.woff2') format('woff2'),
-         url('fonts/liberationsans-bold-webfont.woff') format('woff'),
-         url('fonts/liberationsans-bold-webfont.ttf') format('truetype'),
-         url('fonts/liberationsans-bold-webfont.svg#liberation_sansbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'liberation_sansregular';
-    src: url('fonts/liberationsans-regular-webfont.eot');
-    src: url('fonts/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/liberationsans-regular-webfont.woff2') format('woff2'),
-         url('fonts/liberationsans-regular-webfont.woff') format('woff'),
-         url('fonts/liberationsans-regular-webfont.ttf') format('truetype'),
-         url('fonts/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
     font-family: 'montserrathairline';
     src: url('fonts/montserrat-hairline_2-webfont.eot');
     src: url('fonts/montserrat-hairline_2-webfont.eot?#iefix') format('embedded-opentype'),
@@ -109,20 +77,14 @@ body {
 
 }
 
-
-
-
 @font-face {
-    font-family: 'montserratregular';
-    src: url('fonts/montserrat-regular_2-webfont.eot');
-    src: url('fonts/montserrat-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/montserrat-regular_2-webfont.woff2') format('woff2'),
-         url('fonts/montserrat-regular_2-webfont.woff') format('woff'),
-         url('fonts/montserrat-regular_2-webfont.ttf') format('truetype'),
-         url('fonts/montserrat-regular_2-webfont.svg#montserratregular') format('svg');
+    font-family: 'Coves-Bold';
+    src:url('fonts/Coves-Bold.ttf.woff') format('woff'),
+        url('fonts/Coves-Bold.ttf.svg#Coves-Bold') format('svg'),
+        url('fonts/Coves-Bold.ttf.eot'),
+        url('fonts/Coves-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
-
 }
 
 
@@ -743,6 +705,40 @@ color: #FFFFFF;
     
     
 }
+
+.underline2 {
+    
+    position: relative;
+    
+}
+
+.underline2::after{
+    content: '';
+    border-bottom: 3px solid #fc8f8f;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    
+    
+}
+
+
+#texto {
+    
+    width: 831px;
+    height: 400px;
+    position: absolute;
+    left: 0px;
+    top: 1030px;
+     text-align: left;
+    font-family: 'Coves-Bold';
+    font-size: 20px;
+    color: #525252;
+ 
+}
+
+
 
 #footer {
     width: 1180px;
