@@ -482,7 +482,7 @@ color: #FFFFFF;
     position: absolute;
    left: 723px;
     top: 733px;
-    background-image: url(images/blank.png);
+    background-image: url(images/poppoppunk.png);
     
 }
 
@@ -490,7 +490,7 @@ color: #FFFFFF;
 #poppunk:hover {
     
     
-    background-image: url(images/blank-hover.png);
+    background-image: url(images/poppoppunk-hover.png);
 }
 
 
