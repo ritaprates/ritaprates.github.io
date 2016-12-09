@@ -379,6 +379,28 @@ background-color: #009aff;
 
 @media (max-width: 470px) {
     
+    #cover-image {
+    
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    
+    max-width: 540px !important;
+   
+}
+    
+    #overlay-image {
+    
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 540px;
+    top: 90px;
+}
+    
     #logo {
     position: absolute;
     top: 30px;
