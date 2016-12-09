@@ -401,8 +401,8 @@ background-color: #009aff;
     
     #event-title {
 
-    font-size: 22px;
-    height: 35px;
+    font-size: 20px;
+    height: 33px;
   
     top: 110px;
   
@@ -448,8 +448,8 @@ background-color: #009aff;
   
     top: 75px;
    
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 18px;
     
     
 }
@@ -478,8 +478,8 @@ background-color: #009aff;
     top: 100px;
     text-align: left;
     font-family: 'montserratlight', sans-serif;
-    font-size: 13px;
-    line-height: 19px;
+    font-size: 11px;
+    line-height: 17px;
     color: #545454;
 }
     
