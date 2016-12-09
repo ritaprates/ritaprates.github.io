@@ -254,6 +254,28 @@ background-color: #009aff;
 
 @media (max-width: 575px) {
     
+    #logo {
+  
+    width: 135px;
+    height: 36px;
+    
+}
+
+#cover-image {
+    
+  
+    top: 95px;
+   
+   
+}
+
+
+#overlay-image {
+    
+   
+    top: 95px;
+}
+    
     #avatar {
     width: 85px;
     height: 85px;
@@ -381,31 +403,16 @@ background-color: #009aff;
     
     #cover-image {
     
-    position: absolute;
     top: 90px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    
-    max-width: 540px !important;
    
 }
     
     #overlay-image {
     
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%;
-    max-width: 540px;
     top: 90px;
 }
     
     #logo {
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translateX(-50%);
     width: 120px;
     height: 32px;
     
