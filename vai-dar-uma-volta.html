@@ -8,44 +8,237 @@
      <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
    
     </head>
+ 
     <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="css/images/volta/app1.png" style="width:100%">
+    </div>
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="css/images/volta/feed.gif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="css/images/volta/app3.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="css/images/volta/app4.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="css/images/volta/gift.gif" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="css/images/volta/challenge.gif" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="css/images/volta/profile+msgs.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="css/images/volta/profile.gif" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="css/images/volta/achievements.png" style="width:100%">
+    </div>
+      
+   
+      
+     
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
     
-    <div id="main" class="centered">
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+         <div id="preload">
+   <img src="css/images/app-hover.png" width="1" height="1"/>
+   
+            
+</div>
         
-         <a href="index">
+        <div id="header">  <a href="index">
         <div id="logo">
-        <p> <span style='color:#525252'>rita</span>prates</p>
+         <span style='color:#525252'>rita</span>prates
             
         </div></a>
         
-        
+        <a href="contact">
+         <div id="contact">contact</div></a>
+          
+           <a href="work">
+            <div id="work">work</div></a>
         
         <a href="about">
-        <div id="about"><p>about</p></div></a>
+        <div id="about">about</div></a>
         
+    
+          </div>
         
-        <a href="work">
-            <div id="work"><p>work</p></div></a>
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">about</div></a><br><br>
         
-        <a href="contact">
-         <div id="contact"><p>contact</p></div></a>
-        
-        
-      
        
+          
+           <a href="work">
+            <div id="work-mobile">work</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contact</div></a>
+      
         
-<div id="footer"><p>designed and developed by rita prates. made with love in brackets and hosted on github.</p></div> 
+    
+          </div><br><br><br><br><br><br>
         
-         <div id="language">
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="volta1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #d98672; border-bottom: 3px solid #d98672;"> The Hitchhiker's Guide to the Galaxy</span></div></div><br>
+                <div id="detail-text-box">
+                
+                This book contains the original text of The Hitchhiker's Guide to the Galaxy, by Douglas Adams, in which five characters travel through the galaxy aided by a book that contains all the information in the universe: the Guide.
+This edition also contains illustrations on the first page of every chapter. These illustrations, examples of pixel art, the formatting and typeface of the text emphasize the influence of the 'digital world' in the plot of the book. There are also smaller books inside this book, which contain the entries of the Guide, and a tracing paper dust jacket over the cardboard cover of the book. </div>
+                <div id="detail-text-info-box"><span style="color: #d98672"> January 2015<br>University Project</span></div>
+            
+            </div>
+            
+
+        
+         <div id="volta2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="volta3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="volta4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="volta5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="volta6" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="volta7" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+        
+            
+            
+           
+            
+             <div id="volta8" onclick="openModal();currentSlide(8)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+            
+             <div id="volta9" onclick="openModal();currentSlide(9)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+           
+             
+            
+            <div id="placeholder-hhgg-mobile"></div>
+             <div id="placeholder-hhgg-mobile"></div>
+            
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+        
+       
+            
+    </div>
+    <div id="footer"><div id="credits">designed and developed by rita prates. made with love in brackets and hosted on github.</div>
+            <div id="language">
        
         <a href="pt/index">   <div id="pt">PT</div></a> 
             
         <a href="index">   <div id="en-active">EN</div></a>
             
-        </div>
+        </div></div>
+       </div> 
         
-    </div>
-    
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
         
         
         </body>

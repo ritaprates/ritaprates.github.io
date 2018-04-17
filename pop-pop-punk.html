@@ -8,54 +8,280 @@
      <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
    
     </head>
+ 
     <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 15</div>
+      <img src="css/images/pop-punk/punk1.gif" style="width:100%">
+    </div>
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 15</div>
+      <img src="css/images/pop-punk/capa.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 15</div>
+      <img src="css/images/pop-punk/poppunk.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">4 / 15</div>
+      <img src="css/images/pop-punk/greenday1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">5 / 15</div>
+      <img src="css/images/pop-punk/greenday2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">6 / 15</div>
+      <img src="css/images/pop-punk/blink1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 15</div>
+      <img src="css/images/pop-punk/blink2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">8 / 15</div>
+      <img src="css/images/pop-punk/fob1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">9 / 15</div>
+      <img src="css/images/pop-punk/fob2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">10 / 15</div>
+      <img src="css/images/pop-punk/atl1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">11 / 15</div>
+      <img src="css/images/pop-punk/atl2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">12 / 15</div>
+      <img src="css/images/pop-punk/5sos1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">13 / 15</div>
+      <img src="css/images/pop-punk/5sos2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">14 / 15</div>
+      <img src="css/images/pop-punk/back.png" style="width:100%">
+    </div>
+      
+      
+      <div class="mySlides">
+      <div class="numbertext">15 / 15</div>
+      <img src="css/images/pop-punk/stack.png" style="width:100%">
+    </div>
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
     
-    <div id="main" class="centered">
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+         <div id="preload">
+   <img src="css/images/app-hover.png" width="1" height="1"/>
+   
+            
+</div>
         
-         <a href="index">
+        <div id="header">  <a href="index">
         <div id="logo">
-        <p> <span style='color:#525252'>rita</span>prates</p>
+         <span style='color:#525252'>rita</span>prates
             
         </div></a>
         
-        
+        <a href="contact">
+         <div id="contact">contact</div></a>
+          
+           <a href="work">
+            <div id="work">work</div></a>
         
         <a href="about">
-        <div id="about"><p>about</p></div></a>
+        <div id="about">about</div></a>
         
+    
+          </div>
         
-        <a href="work">
-            <div id="work"><p>work</p></div></a>
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">about</div></a><br><br>
         
-        <a href="contact">
-         <div id="contact"><p>contact</p></div></a>
+       
+          
+           <a href="work">
+            <div id="work-mobile">work</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contact</div></a>
+      
         
-<div id="punk1"></div>        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
 
         
-<div id="texto">
-        <span style="color:#fc8f8f; font-family:'league_spartanregular'" class="underline2">pop-pop-punk</span><br><br><br>For a university project, I had to make a magazine. I wanted to explore pop-punk and what it means as a music genre, which meant making a magazine that embodied pop-punk's fun and youthful spirit. I decided to focus on the bands that are closer to the 'pop side' of pop-punk, who are sometimes seen as sell-outs because their music is catchy and they have crossed over to the 'mainstream'. The chosen bands are Green Day, blink-182, Fall Out Boy, All Time Low and 5 Seconds of Summer. <br>
+       
+            <div id="punk1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title" class="underline2">pop-pop-punk</div></div><br>
+                <div id="detail-text-box">
+                
+                For a university project, I had to make a magazine. I wanted to explore pop-punk and what it means as a music genre, which meant making a magazine that embodied pop-punk's fun and youthful spirit. I decided to focus on the bands that are closer to the 'pop side' of pop-punk, who are sometimes seen as sell-outs because their music is catchy and they have crossed over to the 'mainstream'. The chosen bands are Green Day, blink-182, Fall Out Boy, All Time Low and 5 Seconds of Summer. <br>
 I also wanted to work with newspaper, something I had never used in a project. The result is a 24-page Digital Tabloid printed by Newspaper Club that uses a four-colour palette. Between some pages there are also small notebooks that contain full colour images with lyrics from each band's music.
-<br><br>The magazine contains texts from interviews and magazine articles, mostly from Kerrang!, Rocksound, Alternative Press and Rolling Stone. Next to each block of text there is a note stating its source.
-The typefaces used are Campton Light and Bold, by Fontfabric, and League Gothic, by The League of Moveable Type.
-        </div>        
+ <br><br>
+The magazine contains texts from interviews and magazine articles, mostly from Kerrang!, Rocksound, Alternative Press and Rolling Stone. Next to each block of text there is a note stating its source.
+The typefaces used are Campton Light and Bold, by Fontfabric, and League Gothic, by The League of Moveable Type.</div>
+                <div id="detail-text-info-box">January 2016<br>University Project</div>
+            
+            </div>
+            
+
         
-<div id="info">January 2016<br>University Project</div>
+         <div id="punk2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="punk3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="punk4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk6" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk7" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk7-mobile" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk6-mobile" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+            
+           
+            
+             <div id="punk8" onclick="openModal();currentSlide(8)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+             <div id="punk9" onclick="openModal();currentSlide(9)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="punk10" onclick="openModal();currentSlide(10)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+            
+         <div id="placeholder-punk"></div>
+        
+         <div id="punk11" onclick="openModal();currentSlide(11)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk12" onclick="openModal();currentSlide(12)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk12-mobile" onclick="openModal();currentSlide(12)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk11-mobile" onclick="openModal();currentSlide(11)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk13" onclick="openModal();currentSlide(13)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk14" onclick="openModal();currentSlide(14)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="punk15" onclick="openModal();currentSlide(15)" class="hover-shadow" style="cursor: pointer !important;"></div>
         
         
         
-<div id="footer"><p>designed and developed by rita prates. made with love in brackets and hosted on github.</p></div> 
+        <div id="placeholder-punk"><br></div>
         
-         <div id="language">
+       
+    </div>
+    <div id="footer"><div id="credits">designed and developed by rita prates. made with love in brackets and hosted on github.</div>
+            <div id="language">
        
         <a href="pt/index">   <div id="pt">PT</div></a> 
             
         <a href="index">   <div id="en-active">EN</div></a>
             
-        </div>
+        </div></div>
+       </div> 
         
-    </div>
-    
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
         
         
         </body>
