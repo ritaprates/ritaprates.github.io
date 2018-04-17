@@ -100,9 +100,14 @@ body {
 
 
 #main{
-    width: 1180px;
-    height: 2165px;
-    background-color: #FFFFFF;
+   position: relative;
+    display: block;
+    width: 85%;
+    padding: 5px;
+    height: 1000px;
+    max-width: 1200px;
+    max-height: none;
+    overflow: hidden;
     
 }
 
@@ -114,18 +119,55 @@ body {
 }
 
 #main-intro{
-    width: 1180px;
-    height: 670px;
-    background-color: #FFFFFF;
+    position: relative;
+    display: block;
+    width: 85%;
+    padding: 5px;
+    max-width: 1200px;
+    height: auto !important;
+    max-height: none;
+    overflow: hidden;
+    
+}
+
+#main-work{
+    position: relative;
+    display: block;
+    width: 85%;
+    padding: 5px;
+    max-width: 1180px;
+    height: auto !important;
+    max-height: none;
+    overflow: hidden;
+    
+}
+
+#header {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 60px;
+    
+    
+}
+
+
+#header-mobile {
+    display: none;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 60px;
+    
     
 }
 
 #logo {
     width: 130px;
-    height: 30px;
-    position: absolute;
-   left: 0px;
-    top: 60px;
+    height: 35px;
+    position: relative;
+   float: left;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -142,12 +184,12 @@ color: #5EDCE1;
 }
 
 #about {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    top: 60px;
-    left: 723px;
-       text-align: center;
+    width: 60px;
+    margin-left: 140px;
+    height: 35px;
+    position: relative;
+  float: right;
+       text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -157,12 +199,12 @@ color: #525252;
 }
 
 #about-active {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    top: 60px;
-    left: 723px;
-       text-align: center;
+    width: 60px;
+    margin-left: 140px;
+    height: 35px;
+    position: relative;
+   float: right;
+       text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -176,14 +218,48 @@ color: #5EDCE1;
     color: #5EDCE1;
 }
 
+#about-mobile {
+    width: 60px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+       text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+  
+}
+
+
+#about-mobile-active {
+    width: 60px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+       text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+  
+}
+
+#about-mobile:hover {
+    
+    color: #5EDCE1;
+}
+
 
 #work {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    left: 916.5px;
-    top: 60px;
-     text-align: center;
+    width: 50px;
+    margin-left: 150px;
+    height: 35px;
+    position: relative;
+   float: right;
+     text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -193,12 +269,12 @@ color: #525252;
 }
 
 #work-active {
-    width: 70px;
-    height: 30px;
-    position: absolute;
-    left: 916.5px;
-    top: 60px;
-     text-align: center;
+    width: 50px;
+    margin-left: 150px;
+    height: 35px;
+    position: relative;
+  float: right
+     text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -214,13 +290,46 @@ color: #5EDCE1;
     color: #5EDCE1;
 }
 
+#work-mobile {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+   right: 0px;
+     text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+
+}
+
+#work-mobile-active {
+    width: 50px;
+    height: 35px;
+    position: absolute;
+   right: 0px;
+     text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+
+}
+
+#work-mobile:hover {
+    
+    color: #5EDCE1;
+}
+
 #contact {
     width: 70px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    top: 60px;
-     text-align: center;
+    margin-left: 130px;
+    height: 35px;
+    position: relative;
+   float: right;
+     text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -231,11 +340,11 @@ color: #525252;
 
 #contact-active {
     width: 70px;
-    height: 30px;
-    position: absolute;
-    right: 0px;
-    top: 60px;
-     text-align: center;
+    margin-left: 130px;
+    height: 35px;
+    position: relative;
+ float: right;
+     text-align: right;
     vertical-align:middle;
     line-height: 30px;  
     font-family:'league_spartanregular';
@@ -251,17 +360,81 @@ color: #5EDCE1;
     color: #5EDCE1;
 }
 
+#contact-mobile {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+     text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+    
+}
+
+#contact-mobile-active {
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+     text-align: right;
+    vertical-align:middle;
+    line-height: 50px;  
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #525252;
+    
+}
+
+#contact-mobile:hover {
+    
+    color: #5EDCE1;
+}
 
 
 #intro {
-    width: 1180px;
-    height: 435px;
+    width: 100%;
+    height: auto;
    
-    position: absolute;
+    position: relative;
+   left:  0px;
+    top: 120px;
+    text-align: left;
+    line-height: 80px;  
+    font-family:'league_spartanregular';
+    font-size: 60px;
+color: #5EDCE1;
+    
+}
+
+#intro-contact {
+    display: block;
+    width: 100%;
+    height: auto;
+   
+    position: relative;
    left:  0px;
     top: 150px;
     text-align: left;
-    line-height: 72px;  
+    line-height: 80px;  
+    font-family:'league_spartanregular';
+    font-size: 60px;
+color: #5EDCE1;
+    
+}
+
+#intro-contact-mobile {
+    display: none;
+    width: 100%;
+    height: auto;
+   
+    position: relative;
+   left:  0px;
+    top: 150px;
+    text-align: left;
+    line-height: 80px;  
     font-family:'league_spartanregular';
     font-size: 60px;
 color: #5EDCE1;
@@ -278,9 +451,10 @@ color: #5EDCE1;
 #insta {
     width: 51px;
     height: 51px;
-    position: absolute;
-    left: 0px;
-    top: 520px;
+    position: relative;
+   float: left;
+    margin-right: 30px;
+    top: 0px;
     background-image: url(images/insta.png);
     
 }
@@ -290,12 +464,30 @@ color: #5EDCE1;
     background-image: url(images/insta-hover.png);
 }
 
+#insta-mobile {
+    width: 30px;
+    height: 30px;
+    position: relative;
+   float: left;
+    margin-right: 20px;
+    top: 0px;
+    background-size: contain;
+    background-image: url(images/insta.png);
+    
+}
+
+#insta-mobile:hover {
+    
+    background-image: url(images/insta-hover.png);
+}
+
 #tumblr {
     width: 51px;
     height: 51px;
-    position: absolute;
-    left: 83px;
-    top: 520px;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    top: 0px;
     background-image: url(images/tumblr.png);
     
 }
@@ -305,12 +497,29 @@ color: #5EDCE1;
     background-image: url(images/tumblr-hover.png);
 }
 
+#tumblr-mobile {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    top: 0px;
+     background-size: contain;
+    background-image: url(images/tumblr.png);
+    
+}
+
+#tumblr-mobile:hover {
+    
+    background-image: url(images/tumblr-hover.png);
+}
+
 #behance {
     width: 51px;
     height: 51px;
-    position: absolute;
-    left: 166px;
-    top: 520px;
+    position: relative;
+    float: left;
+    top: 0px;
     background-image: url(images/behance.png);
     
 }
@@ -320,13 +529,30 @@ color: #5EDCE1;
     background-image: url(images/behance-hover.png);
 }
 
+#behance-mobile {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    float: left;
+    top: 0px;
+     background-size: contain;
+    background-image: url(images/behance.png);
+    
+}
+
+#behance-mobile:hover {
+    
+    background-image: url(images/behance-hover.png);
+}
+
 #contact-text {
-    width: 1180px;
-    height: 200px;
-   
-    position: absolute;
-   left:  0px;
-    top: 220px;
+    max-width: 1200px;
+    height: auto;
+   max-height: none;
+    overflow: hidden;
+    position: relative;
+   padding: 5px;
+    top: 180px;
     text-align: left;
     line-height: 72px;  
     font-family:'league_spartanregular';
@@ -335,14 +561,17 @@ color: #5EDCE1;
     
 }
 
+
+
 #contact-info {
+
      width: 400px;
     height: 60px;
-    position: absolute;
-    right: 0px;
-    top: 520px;
+    position: relative;
+   float: right;
+    top: 0px;
     text-align: right;
-    line-height: 30px;  
+    line-height: 40px;  
     font-family:'league_spartanregular';
     font-size: 25px;
 color: #525252;
@@ -350,13 +579,17 @@ color: #525252;
     
 }
 
+
 #hhgg {
-    width: 457px;
-    height: 457px;
-    background-image: url(images/hhgg.png);
-    position: absolute;
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
    left: 0px;
-    top: 251px;
+    padding-top: 38.7% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hhgg.png);
     
 }
 
@@ -367,29 +600,37 @@ color: #525252;
 }
 
 #editorial {
-    width: 196px;
-    height: 196px;
+    width: 18.3%;
     background-color: #5EDCE1;
-    padding-left: 20px;
-    padding-top: 20px;
+    position: relative;
+     padding-top: 18.3% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    
+}
+
+.editorialtext {
     position: absolute;
-   left: 482px;
-    top: 251px;
-    text-align: left;
-    line-height: 34px;  
+    padding: 20px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     font-family:'league_spartanregular';
     font-size: 22px;
 color: #FFFFFF;
-    
+line-height: 30px;
 }
 
 
 #global {
-    width: 457px;
-    height: 216px;
-    position: absolute;
-   right: 0px;
-    top: 251px;
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.3% !important;
+    float: left;
+     margin-bottom: 2.12%;
     background-image: url(images/globalisation.png);
     
     
@@ -402,11 +643,12 @@ color: #FFFFFF;
 }
 
 #seb {
-    width: 457px;
-    height: 216px;
-    position: absolute;
-   left: 482px;
-    top: 492px;
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.3% !important;
+    float: left;
+    margin-bottom: 2.12%;
     background-image: url(images/rodrigues.png);
     
 }
@@ -418,11 +660,14 @@ color: #FFFFFF;
 }
 
 #blank {
-    width: 457px;
-    height: 216px;
-    position: absolute;
-   left: 0px;
-    top: 733px;
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.35% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
     background-image: url(images/blank.png);
     
 }
@@ -433,11 +678,14 @@ color: #FFFFFF;
 }
 
 #dezsete {
-    width: 216px;
-    height: 216px;
-    position: absolute;
-   left: 482px;
-    top: 733px;
+     width: 18.3%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.3% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
     background-image: url(images/dezsete.png);
     
 }
@@ -448,11 +696,14 @@ color: #FFFFFF;
 }
 
 #poppunk {
-    width: 457px;
-    height: 457px;
-    position: absolute;
-   left: 723px;
-    top: 733px;
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 38.7% !important;
+   
+    margin-bottom: 2.12%;
+    float: left;
     background-image: url(images/poppoppunk.png);
     
 }
@@ -466,43 +717,47 @@ color: #FFFFFF;
 
 
 #webdesign {
-    width: 196px;
-    height: 196px;
+   
+   width: 18.3%;
     background-color: #6DC4F5;
-    position: absolute;
-   left: 0px;
-    top: 1215px;
-     padding-left: 20px;
-    padding-top: 20px;
-    text-align: left;
-    line-height: 34px;  
-    font-family:'league_spartanregular';
-    font-size: 22px;
-color: #FFFFFF;
+    position: relative;
+     padding-top: 18.3% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+  
     
+  
 }
 
-#web {
-    width: 457px;
-    height: 457px;
-    position: absolute;
-   left: 241px;
-    top: 974px;
+#hhgg-web {
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 38.7% !important;
+   margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    margin-top: -20.3%;
     background-image: url(images/web.png);
     
 }
 
-#web:hover {
+#hhgg-web:hover {
     
     background-image: url(images/web-hover.png);
 }
 
 #purpose {
-    width: 457px;
-    height: 216px;
-    position: absolute;
-   right:  0px;
-    top: 1215px;
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.35% !important;
+    left: 0px !important;
+    float: left;
+
+    margin-bottom: 2.12%;
     background-image: url(images/purpose.png);
     
 }
@@ -513,11 +768,14 @@ color: #FFFFFF;
 }
 
 #app {
-    width: 457px;
-    height: 216px;
-    position: absolute;
-   left:  0px;
-    top: 1456px;
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.35% !important;
+    left: 0px !important;
+    float: left;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
     background-image: url(images/app.png);
     
 }
@@ -528,62 +786,82 @@ color: #FFFFFF;
 }
 
 #other {
-    width: 196px;
-    height: 196px;
+   
+   width: 18.3%;
     background-color: #5E74E1;
-    position: absolute;
-   left:  482px;
-    top: 1456px;
-      padding-left: 20px;
-    padding-top: 20px;
-    text-align: left;
-    line-height: 34px;  
-    font-family:'league_spartanregular';
-    font-size: 22px;
-color: #FFFFFF;
+    position: relative;
+     padding-top: 18.3% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
     
 }
 
 #craft {
-    width: 457px;
-    height: 457px;
-    position: absolute;
-   right:  0px;
-    top: 1456px;
-    background-image: url(images/craft.png);
+    width: 38.7%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 38.7% !important;
+   
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-2.png);
     
 }
 
 #craft:hover {
     
-    background-image: url(images/craft-hover.png);
+    background-image: url(images/craft-2-hover.png);
     right: 0px;
 }
 
-#photo {
-    width: 216px;
-    height: 216px;
-    position: absolute;
-   left:  0px;
-    top: 1697px;
-    background-image: url(images/photo.png);
+#letterpress {
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 38.7% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-top: -20.3%;
+    background-image: url(images/letterpress.png);
     
 }
 
-#photo:hover {
+#letterpress:hover {
     
-    background-image: url(images/photo-hover.png);
+    background-image: url(images/letterpress-hover.png);
     
 }
 
 
 #unwritten {
-    width: 216px;
-    height: 216px;
-    background-color:cornflowerblue;
-    position: absolute;
-   left:  241px;
-    top: 1697px;
+    width: 18.3%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.3% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-top: -20.3%;
+    visibility: hidden;
+   
+    
+}
+
+#placeholder-2x1 {
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18.35% !important;
+    left: 0px !important;
+    float: left;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+   visibility: hidden;
     
 }
 
@@ -660,6 +938,8 @@ color: #FFFFFF;
 }
 
 
+
+
 #thingsthatmatter {
     
     width: 679px;
@@ -732,17 +1012,1724 @@ color: #FFFFFF;
     
 }
 
-#punk1 {
+.underline3 {
+    
+    position: relative;
+    
+}
+
+.underline3::after{
+    content: '';
+    border-bottom: 3px solid #9e9ad3;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    
+    
+}
+
+/*  #punk1- {
     width: 1180px;
     height: 698px;
     position: absolute;
     left: 0px;
     top: 251px;
     background-image: url(images/punk1.gif);
+    background-size: contain;
     
+    
+     
+}   */
+ 
+
+#punk1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/pop-punk/punk1.gif); 
+    background-size: contain;
+    
+}
+
+
+#punk2 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 38.7% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/capa-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk3 {
+    width: 59.12%;
+    position: relative;
+     padding-top: 38.7% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/poppunk.png); 
+    background-size: contain;
+    
+}
+
+#punk4 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/greenday1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk5 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/greenday2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk6 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/blink1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk7 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/blink2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk6-mobile {
+    display: none;
+
+}
+
+#punk7-mobile {
+    display: none;
+
+}
+
+
+#punk8 {
+    width: 59.12%;
+    position: relative;
+     padding-top: 38.7% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/fob1-s.png); 
+    background-size: contain;
+    
+}
+
+#punk9 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 38.7% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/fob2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk10 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 59.15% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/pop-punk/atl1-s.png); 
+    background-size: contain;
+    
+}
+
+#placeholder-punk {
+   display: block;
+   width: 18.3%;
+    
+    position: relative;
+     padding-top: 18.3% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+  
+}
+
+#punk11 {
+    display: block;
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/atl2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk12 {
+    display: block;
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/5sos1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk11-mobile {
+    display: none;
+}
+
+#punk12-mobile {
+    display: none;
+}
+
+#punk13 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/5sos2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk14 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/back-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#punk15 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 59.15% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/pop-punk/stack-s.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhggweb1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/hitchhikers-web/hhggweb.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb2 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 38.7% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/characters1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb3 {
+    width: 59.12%;
+    position: relative;
+     padding-top: 38.7% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/characters2.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhggweb4 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/gallery-rect.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb5 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/video-rect.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb6 {
+    width: 59.12%;
+    position: relative;
+     padding-top: 38.7% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/trivia.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb7 {
+    width: 38.7%;
+    position: relative;
+     padding-top: 38.7% !important;
+    margin-bottom: 2.12%;
+
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb8 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 59.15% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/hitchhikers-web/mobile2-s.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhggweb9 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile3-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb10 {
+   width: 18.3%;
+    background-size: contain;
+    padding-top: 18.3% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    background-image: url(images/hitchhikers-web/mobile4-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb11 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile5-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhggweb12 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile6-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb13 {
+    width: 18.3%;
+    position: relative;
+     padding-top: 18.3% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile7-sq.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhgg1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/hitchhikers/hhgg1-s.png); 
+    background-size: contain;
+    
+}
+
+#placeholder-hhgg {
+   width: 38.7%;
+    visibility: hidden;
+    position: relative;
+   left: 0px;
+    margin-right: 2.12%;
+    padding-top: 38.7% !important;
+    float: left;
+    
+}
+
+#placeholder-hhgg-mobile {
+    display: none;
+}
+
+#hhgg2 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/cardboard1.png); 
+    background-size: contain;
+    
+}
+
+#hhgg3 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/contracapa.png); 
+    background-size: contain;
+    
+}
+
+#hhgg4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/cardboard2-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg5 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/text-s.png); 
+    background-size: contain;
+    
+}
+
+#hhgg6 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/fish-s.png); 
+    background-size: contain;
+    
+}
+
+#hhgg7 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/destaque-s.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg8 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/guide1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg9 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/guide2.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg10 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/whale-s.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg11 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/dolphins-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhgg12 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/earth-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhgg13 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/button-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/globalisation/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#globalisation2 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/diagrama.png); 
+    background-size: contain;
+    
+}
+
+#globalisation3 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/globalisation-sq.png); 
+    background-size: contain;
+    
+}
+
+#globalisation4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/bandeira-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation5 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/alterglobalisation.png); 
+    background-size: contain;
+    
+}
+
+#globalisation6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/seattle-s.png); 
+    background-size: contain;
+    
+}
+
+#globalisation7 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-left:  20.42%;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/banksy-s.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation8 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/contracapa-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation9 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/capafull-sq.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb1-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues3 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb2.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb3-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#rodrigues5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig1-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues6 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig2-sq.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues7 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig3.png); 
+    background-size: contain;
+    
+}
+
+
+#rodrigues8 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/contra-capa-s.png); 
+    background-size: contain;
+    
+}
+
+
+#blank1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/about-blank/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#blank2 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/diagrama.png); 
+    background-size: contain;
+    
+}
+
+#blank3 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/tschichold1-sq.png); 
+    background-size: contain;
+    
+}
+
+#blank4 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/tschichold2-s.png); 
+    background-size: contain;
+    
+}
+
+
+#blank5 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/maxbill1-sq.png); 
+    background-size: contain;
+    
+}
+
+#blank6 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/maxbill2.png); 
+    background-size: contain;
+    
+}
+
+#blank7 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 20.48%;
+    float: left;
+    background-image: url(images/about-blank/text-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#blank8 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/contra-capa-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/10-7/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#dezsete2 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/manhattan-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete3 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/lisbonstory-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete4 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/berlin-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/tokyo-s.png); 
+    background-size: contain;
+    
+}
+
+#dezsete6 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.85%;
+    float: left;
+    background-image: url(images/10-7/nystories.png); 
+    background-size: contain;
+    
+}
+
+#dezsete7 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/paris-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete8 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/barcelona.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete9 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 40.86%;
+    float: left;
+    background-image: url(images/10-7/newyork-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete10 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/midnightparis-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete11 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/rome-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete12 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/lisbon-detail-sq.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#dezsete13 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/tokyo-detail-sq.png); 
+    background-size: contain;
+    
+}
+
+
+
+#purpose1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/purpose/books+ipad-s.png); 
+    background-size: contain;
+    
+}
+
+#purpose2 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/capamapa.png); 
+    background-size: contain;
+    
+}
+
+#purpose3 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/rosto-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/criticalfaculty-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose5 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/text-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/3cadernos-s.png); 
+    background-size: contain;
+    
+}
+
+#purpose7 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/caderno1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose8 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/caderno2-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose9 {
+   width: 18.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/caderno3-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose10 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad1.png); 
+    background-size: contain;
+    
+}
+
+#purpose11 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad2-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose12 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad3-sq.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#purpose13 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad4.png); 
+    background-size: contain;
+    
+}
+
+
+#volta1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/volta/app1-s.png); 
+    background-size: contain;
+    
+}
+
+#volta2 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/feed-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta3 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+    margin-top: 20.42%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/volta/app3.png); 
+    background-size: contain;
+    
+}
+
+#volta4 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/app4.png); 
+    background-size: contain;
+    
+}
+
+
+#volta5 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+    margin-left: 20.42%;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/gift-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta6 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/volta/challenge-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta7 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/profile+msgs.png); 
+    background-size: contain;
+    
+}
+
+
+#volta8 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/volta/profile-vert.gif); 
+    background-size: contain;
+    
+}
+
+
+#volta9 {
+   width: 38.3%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+    margin-left: 20.42%;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-top: -20.42%;
+    float: left;
+    background-image: url(images/volta/achievements-sq.png); 
+    background-size: contain;
+    
+}
+
+
+
+#craft1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/craft-based/poster-main-s.png); 
+    background-size: contain;
+    
+}
+
+
+#craft2 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 4%;
+   
+    float: left;
+    background-image: url(images/craft-based/wallpaper-sq.png); 
+    background-size: contain;
+    
+}
+
+#craft3 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/pink.png); 
+    background-size: contain;
+    
+}
+
+#craft4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/green-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#craft5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/lilac-s.png); 
+    background-size: contain;
+    
+}
+
+#craft6 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-left: 40.82%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/orange.png); 
+    background-size: contain;
+    
+}
+
+#letterpress1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/letterpress/whatif-red-s.png); 
+    background-size: contain;
+    
+}
+
+
+#letterpress2 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/whatif-clear-s.png); 
+    background-size: contain;
+    
+}
+
+#letterpress3 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/pennylane.png); 
+    background-size: contain;
+    
+}
+
+#letterpress4 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 20.48%;
+    float: left;
+    background-image: url(images/letterpress/kaleidoscope-orange-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#letterpress5 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/kaleidoscope-pink-sq.png); 
+    background-size: contain;
+    
+}
+
+#letterpress6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/stars-s.png); 
+    background-size: contain;
+    
+}
+
+#letterpress7 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/rooftop.png); 
+    background-size: contain;
+    
+}
+
+#letterpress8 {
+   width: 59.15%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-left: 40.82%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/satellite.png); 
+    background-size: contain;
+    
+}
+
+
+
+
+
+#detail-text {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    height: auto;
+   margin-bottom: 8.48%;
+    float: left;
+
+    
+}
+
+#detail-text-title-box {
+    
+    width: 100%;
+    position: relative;
+    float: left;
+  
     
     
 }
+
+
+#detail-text-title {
+    
+     width: auto;
+    position: relative;
+    left: 0px;
+    float: left;
+    font-family:   font-family: 'league_spartanregular';
+    text-align: left;
+    color: #fc8f8f;
+    font-size: 20px;
+    line-height: 40px;
+    
+    
+}
+
+
+#detail-text-box {
+    
+    width: 70%;
+    position: relative;
+    left: 0px;
+    float: left;
+     text-align: left;
+    font-family: 'Coves-Light';
+     font-size: 20px;
+    color: #525252;
+    line-height: 30px;
+}
+
+#detail-text-info-box {
+    
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    float: right;
+     text-align: right;
+    font-family: 'league_spartanregular';
+    font-size: 20px;
+    line-height: 40px;
+    color: #fc8f8f;
+ 
+}
+
 
 
 #texto {
@@ -778,25 +2765,40 @@ color: #FFFFFF;
 
 
 #footer {
-    width: 1180px;
-    height: 25px;
+    width: 100%;
+    height: auto;
 
-    position: absolute;
+    position: relative;
+    float: left;
     left: 0px;
     bottom: 10px;
        text-align: left;
     font-family:'montserratlight';
     font-size: 10px;
-color: #525252;    
+color: #525252;   
+    
     
 }
 
+#credits {
+    position: relative;
+    float: left;
+    width: 80%;
+    line-height: 30px !important;
+    right: 0px;
+   top: 0px !important;
+  
+    
+}
 
 #language {
-position: absolute;
+position: relative;
+    float: right;
     width: 40px;
+    line-height: 30px !important;
     right: 0px;
-    bottom: 10px;
+   top: 0px !important;
+    
 
 }
 
@@ -855,4 +2857,2059 @@ position: absolute;
     color: #5EDCE1; 
     
 }
+
+
+#placeholder-1x1 {
+    
+    display: none;
+}
+
+
+/* LIGHTBOX */
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+    
+    
+
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1100px;
+  top: 50%;
+  transform: translateY(-50%);
+    
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+    font-family: 'league_spartanregular';
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+
+
+
+
+
+/* --- MEDIA QUERIES --- */
+
+
+@media screen and (max-width: 858px) {
+    
+    #header {
+        display: none;
+    }
+    
+    #header-mobile {
+        display: block;
+    }
+    
+    #intro {
+        
+        font-size: 40px;
+        top: 80px;
+        line-height: 60px;
+    }
+    
+    #intro-contact {
+        display: none;
+    }
+   
+    #intro-contact-mobile {
+        display: block;
+        top: 120px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    #contact-info {
+        
+            
+            font-size: 20px;
+            line-height: 35px;
+        
+    }
+    
+    #hhgg {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+ 
+    
+}
+
+
+
+#editorial {
+    width: 31.92%;
+    background-color: #5EDCE1;
+    position: relative;
+     padding-top: 31.92% !important;
+margin-right: 0%;
+    margin-bottom: 2.12%;
+    float: left;
+    
+}
+
+    #global {
+     width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    float: right;
+     margin-bottom: 2.12%;
+    background-image: url(images/globalisation.png);
+    
+    
+}
+
+
+
+#seb {
+     width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/rodrigues.png);
+    
+}
+
+
+
+#blank {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/blank.png);
+    
+}
+
+
+
+#dezsete {
+     width: 31.92%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 0%;
+    margin-bottom: 2.12%;
+    background-image: url(images/dezsete.png);
+    
+}
+
+#placeholder-1x1 {
+   display: block;
+   width: 31.92%;
+    
+    position: relative;
+     padding-top: 31.92% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+  
+    
+  
+}
+
+#poppunk {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 65.96% !important;
+   margin-right: 0%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/poppoppunk.png);
+    
+}
+
+
+#webdesign {
+   
+   width: 31.92%;
+    background-color: #6DC4F5;
+    position: relative;
+     padding-top: 31.92% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: ;
+  
+    
+  
+}
+
+#hhgg-web {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 65.96% !important;
+   margin-right: 0%;
+    margin-bottom: 2.12%;
+    float: left;
+    margin-top: 0;
+    background-image: url(images/web.png);
+    
+}
+
+
+
+#purpose {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: left;
+
+    margin-bottom: 2.12%;
+    background-image: url(images/purpose.png);
+    
+}
+
+
+
+#app {
+     width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: right;
+margin-right: 0%;
+    margin-left: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/app.png);
+    
+}
+
+
+
+#other {
+   
+   width: 31.92%;
+    background-color: #5E74E1;
+    position: relative;
+     padding-top: 31.92% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    
+}
+
+#craft {
+    width: 65.96%;
+    background-size: contain;
+    position: relative;
+
+    padding-top: 65.96% !important;
+   
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-2.png);
+    
+}
+
+
+
+#letterpress {
+     width: 65.96%;
+    background-size: contain;
+    position: relative;
+    padding-top: 65.96% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-top: 0%;
+    background-image: url(images/letterpress.png);
+    
+}
+    
+    #unwritten {
+        display: none;
+    }
+
+
+
+
+    
+    #detail-text-box {
+    
+    width: 100%;
+    position: relative;
+    left: 0px;
+    float: left;
+     text-align: left;
+    font-family: 'Coves-Light';
+     font-size: 18px;
+    color: #525252;
+    line-height: 30px;
+}
+
+#detail-text-info-box {
+    
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    bottom: 0px;
+    right: 0px;
+    float: left;
+     text-align: left;
+    font-family: 'league_spartanregular';
+    font-size: 16px;
+    line-height: 30px;
+    color: #fc8f8f;
+
+ 
+}
+    
+    #punk1 {
+   margin-bottom: 12.72%;
+ 
+    
+}
+
+
+#detail-text {
+   margin-bottom: 14.84%;
+    
+}
+
+    
+    
+
+
+#punk2 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 65.96% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/capa-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk3 {
+    width: 100%;
+    position: relative;
+     padding-top: 65.56% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/poppunk.png); 
+    background-size: contain;
+    
+}
+
+#punk4 {
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/greenday1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk5 {
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/greenday2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk6-mobile {
+    display: block;
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+   
+    float: right;
+    background-image: url(images/pop-punk/blink1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk7-mobile {
+    display: block;
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-left: 2.12%;
+    float: right;
+    background-image: url(images/pop-punk/blink2-sq.png); 
+    background-size: contain;
+    
+}
+
+    #punk6 {
+        display: none;
+    }
+    
+     #punk7 {
+        display: none;
+    }
+    
+   
+
+#punk8 {
+    width: 100%;
+    position: relative;
+     padding-top: 65.56% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/fob1.png); 
+    background-size: contain;
+    
+}
+
+#punk9 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 65.96% !important;
+    margin-bottom: 2.12%;
+    float: right;
+    background-image: url(images/pop-punk/fob2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk10 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 65.56% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/pop-punk/atl1.png); 
+    background-size: contain;
+    
+}
+
+
+    
+    
+
+#punk11 {
+   display: none;
+    
+}
+    
+    
+
+#punk12 {
+   display: none;
+    
+}
+    
+    #punk11-mobile {
+        display: block;
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+        margin-left: 2.12%;
+    float: right;
+    background-image: url(images/pop-punk/atl2-sq.png); 
+    background-size: contain;
+    
+}
+    
+    #punk12-mobile {
+        display: block;
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+
+    float: right;
+    background-image: url(images/pop-punk/5sos1-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk13 {
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/5sos2-sq.png); 
+    background-size: contain;
+    
+}
+
+#punk14 {
+    width: 31.92%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/pop-punk/back-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#punk15 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 65.56% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/pop-punk/stack.png); 
+    background-size: contain;
+    
+}
+
+#hhggweb2 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 65.96% !important;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/characters1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb3 {
+    width: 100%;
+    position: relative;
+     padding-top: 65.96% !important;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/characters2.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhggweb4 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 0%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/hitchhikers-web/gallery-rect.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb5 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 31.92% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/video-rect.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb6 {
+    width: 100%;
+    position: relative;
+     padding-top: 65.96% !important;
+margin-right: 0;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/trivia.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb7 {
+    width: 65.96%;
+    position: relative;
+     padding-top: 65.96% !important;
+    margin-bottom: 2.12%;
+margin-left: 34.04%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb8 {
+   width: 100%;
+    background-size: contain;
+    padding-top: 59.15% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/hitchhikers-web/mobile2-s.png); 
+    background-size: contain;
+    
+}
+
+
+
+#hhggweb9 {
+    width: 48.94%;
+    position: relative;
+     padding-top: 48.94% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile3-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb10 {
+   width: 48.94%;
+    background-size: contain;
+    padding-top: 48.94% !important;
+    float: left;
+    margin-bottom: 2.12%;
+    margin-right: 0;
+    background-image: url(images/hitchhikers-web/mobile4-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb11 {
+    width: 48.94%;
+    position: relative;
+     padding-top: 48.94% !important;
+    margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile5-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhggweb12 {
+    width: 48.94%;
+    position: relative;
+     padding-top: 48.94% !important;
+    margin-bottom: 2.12%;
+    margin-right: 0%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile6-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhggweb13 {
+    width: 48.94%;
+    position: relative;
+     padding-top: 48.94% !important;
+    margin-bottom: 2.12%;
+    margin-left: 51.06%;
+    float: left;
+    background-image: url(images/hitchhikers-web/mobile7-sq.png); 
+    background-size: contain;
+    
+}
+
+    #placeholder-hhgg {
+        
+        display: none;
+    }
+  
+    #hhgg2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/cardboard1.png); 
+    background-size: contain;
+    
+}
+
+#hhgg3 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/hitchhikers/contracapa.png); 
+    background-size: contain;
+    
+}
+
+#hhgg4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/hitchhikers/cardboard2-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg5 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.2% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/text-s.png); 
+    background-size: contain;
+    
+}
+
+#hhgg6 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.2% !important;
+    margin-right: 0;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/hitchhikers/fish-s.png); 
+    background-size: contain;
+    
+}
+
+#hhgg7 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/destaque-s.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg8 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/guide1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg9 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/guide2.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg10 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/whale-s.png); 
+    background-size: contain;
+    
+}
+
+
+#hhgg11 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/dolphins-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhgg12 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/earth-sq.png); 
+    background-size: contain;
+    
+}
+
+#hhgg13 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+    margin-right: 0;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/hitchhikers/button-sq.png); 
+    background-size: contain;
+    
+}
+    
+   #placeholder-hhgg-mobile {
+       display: block;
+   width: 31.92%;
+    visibility: hidden;
+    position: relative;
+   left: 0px;
+    margin-right: 2.12%;
+    padding-top: 31.92% !important;
+    float: left;
+    
+}  
+    
+    #globalisation1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/globalisation/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#globalisation2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/globalisation/diagrama.png); 
+    background-size: contain;
+    
+}
+
+#globalisation3 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/globalisation-sq.png); 
+    background-size: contain;
+    
+}
+
+#globalisation4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/globalisation/bandeira-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/alterglobalisation.png); 
+    background-size: contain;
+    
+}
+
+#globalisation6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/seattle-s.png); 
+    background-size: contain;
+    
+}
+
+#globalisation7 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+    margin-left:  34.04%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/banksy-s.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation8 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+    margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/contracapa-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#globalisation9 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/globalisation/capafull-sq.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb1-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues3 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb2.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/seb3-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#rodrigues5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig1-s.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues6 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig2-sq.png); 
+    background-size: contain;
+    
+}
+
+#rodrigues7 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/lustig3.png); 
+    background-size: contain;
+    
+}
+
+
+#rodrigues8 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/rodrigues-lustig/contra-capa-s.png); 
+    background-size: contain;
+    
+}
+
+
+#blank1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/about-blank/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#blank2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/diagrama.png); 
+    background-size: contain;
+    
+}
+
+#blank3 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/about-blank/tschichold1-sq.png); 
+    background-size: contain;
+    
+}
+
+#blank4 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/tschichold2-s.png); 
+    background-size: contain;
+    
+}
+
+
+#blank5 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/about-blank/maxbill1-sq.png); 
+    background-size: contain;
+    
+}
+
+#blank6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/about-blank/maxbill2.png); 
+    background-size: contain;
+    
+}
+
+#blank7 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/about-blank/text-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#blank8 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/about-blank/contra-capa-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/10-7/capa-s.png); 
+    background-size: contain;
+    
+}
+
+#dezsete2 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/manhattan-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete3 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/lisbonstory-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete4 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/berlin-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/tokyo-s.png); 
+    background-size: contain;
+    
+}
+
+#dezsete6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/10-7/nystories.png); 
+    background-size: contain;
+    
+}
+
+#dezsete7 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/paris-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete8 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/barcelona.png); 
+    background-size: contain;
+    
+}
+
+
+#dezsete9 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/10-7/newyork-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete10 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/midnightparis-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete11 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/10-7/rome-sq.png); 
+    background-size: contain;
+    
+}
+
+#dezsete12 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/10-7/lisbon-detail-sq.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#dezsete13 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/10-7/tokyo-detail-sq.png); 
+    background-size: contain;
+    
+}
+
+
+
+#purpose1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/purpose/books+ipad-s.png); 
+    background-size: contain;
+    
+}
+
+#purpose2 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/purpose/capamapa.png); 
+    background-size: contain;
+    
+}
+
+#purpose3 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/rosto-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/criticalfaculty-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose5 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/purpose/text-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/3cadernos-s.png); 
+    background-size: contain;
+    
+}
+
+#purpose7 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/caderno1-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose8 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/caderno2-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#purpose9 {
+   width: 31.92%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/purpose/caderno3-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose10 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad1.png); 
+    background-size: contain;
+    
+}
+
+#purpose11 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad2-sq.png); 
+    background-size: contain;
+    
+}
+
+#purpose12 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/purpose/ipad3-sq.png); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#purpose13 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/purpose/ipad4.png); 
+    background-size: contain;
+    
+}
+
+
+#volta1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/volta/app1-s.png); 
+    background-size: contain;
+    
+}
+
+#volta2 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/feed-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta3 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+    margin-top: 0;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/volta/app3.png); 
+    background-size: contain;
+    
+}
+
+#volta4 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/volta/app4.png); 
+    background-size: contain;
+    
+}
+
+
+#volta5 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+    margin-left: 0;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/gift-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta6 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/volta/challenge-vert.gif); 
+    background-size: contain;
+    
+}
+
+#volta7 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/volta/profile+msgs.png); 
+    background-size: contain;
+    
+}
+
+
+#volta8 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/volta/profile-vert.gif); 
+    background-size: contain;
+    
+}
+
+
+#volta9 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+    margin-left: 0;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-top: 0;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/volta/achievements-sq.png); 
+    background-size: contain;
+    
+}
+
+
+
+#craft1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/craft-based/poster-main-s.png); 
+    background-size: contain;
+    
+}
+
+
+#craft2 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 4%;
+   
+    float: left;
+    background-image: url(images/craft-based/wallpaper-sq.png); 
+    background-size: contain;
+    
+}
+
+#craft3 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.46% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/craft-based/pink.png); 
+    background-size: contain;
+    
+}
+
+#craft4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/craft-based/green-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#craft5 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/lilac-s.png); 
+    background-size: contain;
+    
+}
+
+#craft6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.46% !important;
+ margin-left: 0;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/craft-based/orange.png); 
+    background-size: contain;
+    
+}
+
+#letterpress1 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/letterpress/whatif-red-s.png); 
+    background-size: contain;
+    
+}
+
+
+#letterpress2 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/whatif-clear-s.png); 
+    background-size: contain;
+    
+}
+
+#letterpress3 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/pennylane.png); 
+    background-size: contain;
+    
+}
+
+#letterpress4 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/letterpress/kaleidoscope-orange-sq.png); 
+    background-size: contain;
+    
+}
+
+
+#letterpress5 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34.04%;
+    float: left;
+    background-image: url(images/letterpress/kaleidoscope-pink-sq.png); 
+    background-size: contain;
+    
+}
+
+#letterpress6 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/stars-s.png); 
+    background-size: contain;
+    
+}
+
+#letterpress7 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/rooftop.png); 
+    background-size: contain;
+    
+}
+
+#letterpress8 {
+   width: 100%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+ margin-left: 0;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/letterpress/satellite.png); 
+    background-size: contain;
+    
+}
+    
+
+}
+
+
+
+
+
+@media screen and (max-width: 580px) {
+    
+    .editorialtext {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family:'league_spartanregular';
+    font-size: 18px;
+color: #FFFFFF;
+line-height: 25px;
+}
+    
+
+    
+}
+
+
+@media screen and (max-width: 650px) {
+    
+    
+    
+    #detail-text-title-box {
+    
+        margin-bottom: 6.36%;
+    }
+    
 }
