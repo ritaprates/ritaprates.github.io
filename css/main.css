@@ -445,9 +445,9 @@ color: #5EDCE1;
 
 #preload{
    visibility: hidden;
-    left: -9999px;
-    top: -9999px;
-    height: 0px;
+    left: -9999px !important;
+    top: -9999px !important;
+    height: 0px !important;
 
 }
 
