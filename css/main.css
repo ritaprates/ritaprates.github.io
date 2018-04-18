@@ -2343,6 +2343,20 @@ margin-right: 2.12%;
     
 }
 
+.videoWrapper-volta {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper-volta iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 
 #volta1 {
    width: 100%;
@@ -2470,6 +2484,20 @@ margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/achievements-sq.png); 
     background-size: contain;
+    
+}
+
+#volta10 {
+   width: 38.7%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom:20%;
+    margin-top: 2.12%;
+    float: left;
+    background-color: #e58c77;
+    
     
 }
 
@@ -2702,7 +2730,7 @@ margin-right: 2.12%;
     position: relative;
     left: 0px;
     float: left;
-    font-family:   font-family: 'league_spartanregular';
+    font-family:   font-family: 'league_spartanregular', sans-serif;
     text-align: left;
     color: #fc8f8f;
     font-size: 20px;
@@ -4555,6 +4583,7 @@ margin-left: 34.04%;
     background-size: contain;
     
 }
+    
 
 
 #volta1 {
@@ -4669,6 +4698,8 @@ margin-left: 34.04%;
     background-size: contain;
     
 }
+    
+    
 
 
 #volta9 {
@@ -4687,6 +4718,24 @@ margin-left: 34.04%;
     background-size: contain;
     
 }
+    
+   
+     #volta10 {
+   width: 65.96%;
+    background-size: contain;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 32%;
+    float: left;
+    background-image: url(images/volta/profile-vert.gif); 
+    background-size: contain;
+    
+}   
+    
+    
+    
+
 
 
 
