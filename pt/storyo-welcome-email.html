@@ -1,0 +1,214 @@
+
+<!doctype html>
+<html lan="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>rita prates – design</title>
+    <link rel="stylesheet" href="css/main.css">
+     <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
+   
+    </head>
+ 
+    <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext"  style="color: #ffffff;">1 / 5</div>
+      <img src="css/images/welcome-email/cover-full.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">2 / 5</div>
+      <img src="css/images/welcome-email/conjunto-full.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">3 / 5</div>
+      <img src="css/images/welcome-email/email1-full.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">4 / 5</div>
+      <img src="css/images/welcome-email/email2-full.png" style="width:100%">
+    </div>
+      
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">5 / 5</div>
+      <img src="css/images/welcome-email/email3-full.png" style="width:100%">
+    </div>
+ 
+      
+     
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)" style="color: #ffffff;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="color: #ffffff;">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
+    
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+        
+        
+       <div id="header">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a>
+        
+        <a href="contact">
+            <div id="contact">contacto</div></a>
+          
+           <a href="work">
+               <div id="work">trabalho</div></a>
+        
+        <a href="about">
+        <div id="about">sobre</div></a>
+        
+    
+          </div>
+        
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">sobre</div></a><br><br>
+        
+       
+          
+           <a href="work">
+            <div id="work-mobile">trabalho</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contacto</div></a>
+      
+        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="welcome-email1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #a2d190; border-bottom: 3px solid #a2d190;"> Storyo app Welcome e-mail</span></div></div><br>
+                <div id="detail-text-box">
+                      Este é um e-mail de boas-vindas para a Storyo app que explica as novas features da versão 2.0.
+                    Depois de fazer o design do e-mail comecei a trabalhar no código. e-mails em HTML são incrivelmente desafiantes (e frustrantes) de desenvolver devido aos inúmeros clientes de e-mail (muitos deles com versões desktop, mobile e online), cada um com limitações específicas e suporte para diferentes features.<br>
+                    Este projecto foi muito gratificante porque foi a minha primeira experiência com e-mails em HTML (aprendi muito) e mesmo com todas as limitações consegui atingir o resultado pretendido.
+                    
+                    <br><br>
+                    
+                    A versão web do e-mail está disponível <a href="https://us14.campaign-archive.com/?e=&u=ca70a315db6dd08cfcd7b1522&id=e29b2664bd
+" target="_blank" style="text-decoration: none; color: #a2d190;"> aqui</a>.
+                 </div>
+                <div id="detail-text-info-box"><span style="color: #a2d190"> Fevereiro 2017<br>Cliente: Storyo app</span></div>
+            
+            </div>
+            
+
+        
+         <div id="welcome-email2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="welcome-email3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="welcome-email4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="welcome-email5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+    
+            
+           
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+            
+            <div id="placeholder-hhgg-mobile"></div>
+            
+        
+       
+    </div>
+    <div id="footer"><div id="credits">design e código por rita prates. feito com amor no brackets e alojado no github.</div>
+            <div id="language">
+       
+        <a href="storyo-welcome-email">   <div id="pt-active">PT</div></a> 
+            
+        <a href="../storyo-welcome-email">   <div id="en">EN</div></a>
+            
+        </div></div>
+       </div> 
+        
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+        
+        
+        </body>
+        
+        </html>

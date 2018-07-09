@@ -1,52 +1,269 @@
 
 <!doctype html>
-<html lan="pt">
+<html lan="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
     <title>rita prates – design</title>
     <link rel="stylesheet" href="css/main.css">
      <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
    
     </head>
+ 
     <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">1 / 13</div>
+      <img src="css/images/hitchhikers/hhgg1.png" style="width:100%">
+    </div>
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">2 / 13</div>
+      <img src="css/images/hitchhikers/cardboard1.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">3 / 13</div>
+      <img src="css/images/hitchhikers/contracapa.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">4 / 13</div>
+      <img src="css/images/hitchhikers/cardboard2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">5 / 13</div>
+      <img src="css/images/hitchhikers/text.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">6 / 13</div>
+      <img src="css/images/hitchhikers/fish.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">7 / 13</div>
+      <img src="css/images/hitchhikers/destaque.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">8 / 13</div>
+      <img src="css/images/hitchhikers/guide1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">9 / 13</div>
+      <img src="css/images/hitchhikers/guide2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">10 / 13</div>
+      <img src="css/images/hitchhikers/whale.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">11 / 13</div>
+      <img src="css/images/hitchhikers/dolphins.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">12 / 13</div>
+      <img src="css/images/hitchhikers/earth.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #525252;">13 / 13</div>
+      <img src="css/images/hitchhikers/button.png" style="width:100%">
+    </div>
+      
+     
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)" style="color: #525252;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)"style="color: #525252;">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
     
-    <div id="main" class="centered">
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+         
         
-         <a href="index">
+        <div id="header">  <a href="index">
         <div id="logo">
-        <p> <span style='color:#525252'>rita</span>prates</p>
+         <span style='color:#525252'>rita</span>prates
             
         </div></a>
         
-        
+        <a href="contact">
+            <div id="contact">contacto</div></a>
+          
+           <a href="work">
+               <div id="work">trabalho</div></a>
         
         <a href="about">
-        <div id="about"><p>sobre</p></div></a>
+        <div id="about">sobre</div></a>
         
-        
-        <a href="work">
-            <div id="work"><p>trabalho</p></div></a>
-        
-        <a href="contact">
-         <div id="contact"><p>contactos</p></div></a>
-        
-        
-      
-       
-        
-        
-<div id="footer"><p>design e implementação por rita prates. feito com amor no brackets e alojado no github.</p></div> 
-        
-        <div id="language">
-       
-        <a href="index">   <div id="pt-active">PT</div></a> 
-            
-        <a href="../index">   <div id="en">EN</div></a>
-            
-        </div>
-        
-    </div>
     
+          </div>
+        
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">sobre</div></a><br><br>
+        
+       
+          
+           <a href="work">
+            <div id="work-mobile">trabalho</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contacto</div></a>
+      
+        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="hhgg1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #a2e8d0; border-bottom: 3px solid #a2e8d0;"> The Hitchhiker's Guide to the Galaxy</span></div></div><br>
+                <div id="detail-text-box">
+                    Este livro contém o texto original de The Hitchhiker's Guide to the Galaxy, de Douglas Adams, em que cinco personagens viajam pela galáxia ajudados por um livro que contém toda a informação do universo: o Guia.
+                    Esta edição também contém ilustrações na primeira página de cada capítulo. Estas ilustrações, exemplos de pixel art, e a formatação e tipo de letra do texto ajudam a enfatizar a influência do "mundo digital" no enredo do livro. Existem também pequenos cadernos dentro deste livro, que contêm as entradas do Guia, e uma sobrecapa de papel vegetal sobre a capa de  cartão do livro. Este projecto foi realizado na cadeira de Design Editorial, em que cada aluno tinha que fazer o design de uma edição de um livro à sua escolha.
+                    </div>
+                <div id="detail-text-info-box"><span style="color: #a2e8d0"> Janeiro 2015<br>Trabalho Universitário</span></div>
+            
+            </div>
+            
+<div id="placeholder-hhgg"></div>
+        
+         <div id="hhgg2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="hhgg3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="hhgg4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="hhgg5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="hhgg6" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="hhgg7" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+        
+            
+            
+           
+            
+             <div id="hhgg8" onclick="openModal();currentSlide(8)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+             <div id="hhgg9" onclick="openModal();currentSlide(9)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="hhgg10" onclick="openModal();currentSlide(10)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+            
+       
+        
+         <div id="hhgg11" onclick="openModal();currentSlide(11)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="hhgg12" onclick="openModal();currentSlide(12)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             
+           
+            
+            
+             <div id="hhgg13" onclick="openModal();currentSlide(13)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="placeholder-hhgg-mobile"></div>
+             <div id="placeholder-hhgg-mobile"></div>
+            
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+        
+       
+            
+    </div>
+    <div id="footer"><div id="credits">design e código por rita prates. feito com amor no brackets e alojado no github.</div>
+            <div id="language">
+       
+        <a href="hitchhikers">   <div id="pt-active">PT</div></a> 
+            
+        <a href="../hitchhikers">   <div id="en">EN</div></a>
+            
+        </div></div>
+       </div> 
+        
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
         
         
         </body>

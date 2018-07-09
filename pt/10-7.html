@@ -1,52 +1,278 @@
 
 <!doctype html>
-<html lan="pt">
+<html lan="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
     <title>rita prates – design</title>
     <link rel="stylesheet" href="css/main.css">
      <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
    
     </head>
+ 
     <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 13</div>
+      <img src="css/images/10-7/capa.png" style="width:100%">
+    </div>
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 13</div>
+      <img src="css/images/10-7/manhattan.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 13</div>
+      <img src="css/images/10-7/lisbonstory.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">4 / 13</div>
+      <img src="css/images/10-7/berlin.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">5 / 13</div>
+      <img src="css/images/10-7/tokyo.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">6 / 13</div>
+      <img src="css/images/10-7/nystories.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 13</div>
+      <img src="css/images/10-7/paris.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">8 / 13</div>
+      <img src="css/images/10-7/barcelona.png" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">9 / 13</div>
+      <img src="css/images/10-7/newyork.png" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">10 / 13</div>
+      <img src="css/images/10-7/midnightparis.png" style="width:100%">
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">11 / 13</div>
+      <img src="css/images/10-7/rome.png" style="width:100%">
+    </div>
+     
+       <div class="mySlides">
+      <div class="numbertext">12 / 13</div>
+      <img src="css/images/10-7/lisbon-detail.png" style="width:100%">
+    </div>
+      
+      
+       <div class="mySlides">
+      <div class="numbertext">13 / 13</div>
+      <img src="css/images/10-7/tokyo-detail.png" style="width:100%">
+    </div>
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
     
-    <div id="main" class="centered">
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+     
         
-         <a href="index">
+       <div id="header">  <a href="index">
         <div id="logo">
-        <p> <span style='color:#525252'>rita</span>prates</p>
+         <span style='color:#525252'>rita</span>prates
             
         </div></a>
         
-        
+        <a href="contact">
+            <div id="contact">contacto</div></a>
+          
+           <a href="work">
+               <div id="work">trabalho</div></a>
         
         <a href="about">
-        <div id="about"><p>sobre</p></div></a>
+        <div id="about">sobre</div></a>
         
-        
-        <a href="work">
-            <div id="work"><p>trabalho</p></div></a>
-        
-        <a href="contact">
-         <div id="contact"><p>contactos</p></div></a>
-        
-        
-      
-       
-        
-        
-<div id="footer"><p>design e implementação por rita prates. feito com amor no brackets e alojado no github.</p></div> 
-        
-        <div id="language">
-       
-        <a href="index">   <div id="pt-active">PT</div></a> 
-            
-        <a href="../index">   <div id="en">EN</div></a>
-            
-        </div>
-        
-    </div>
     
+          </div>
+        
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">sobre</div></a><br><br>
+        
+       
+          
+           <a href="work">
+            <div id="work-mobile">trabalho</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contacto</div></a>
+      
+        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="dezsete1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #a4b8d8; border-bottom: 3px solid #a4b8d8;"> 10/7: dez filmes sobre sete cidades</span></div></div><br>
+                <div id="detail-text-box">
+                
+                Nova Iorque<br>
+Berlim<br>
+Lisboa<br>
+Tóquio<br>
+Paris<br>
+Barcelona<br>
+Roma<br><br>
+ 
+                    Este projecto consiste numa colecção de cartazes de filmes com 32x45 cm e começou com uma lista de filmes sobre cidades.
+                    Os cartazes são resultado de ilustrações originais e são apresentados no livro de acordo com a ordem cronológica dos filmes. Cada página contém o cartaz, algumas reviews do filme e a sua informação básica, como ano de lançamento, realizador e a cidade que referencia. É possível destacar os cartazes do livro para que possam ser usados como objectos individuais e não apenas como parte de uma colecção. Os cartazes foram divididos pelas três autoras do projecto; os cartazes para os quais eu fiz ilustrações são os de "Manhattan" (Nova Iorque), "Lost in Translation" (Tóquio) e "Vicky Christina Barcelona" (Barcelona).
+                   
+<br><br>
+Project feito em conjunto com Eliana Gomes e Raquel Russo.</div>
+                <div id="detail-text-info-box"><span style="color: #a4b8d8"> Janeiro 2014<br>Trabalho Universitário</span></div>
+            
+            </div>
+            
+
+        
+         <div id="dezsete2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="dezsete3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="dezsete4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="dezsete5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="dezsete6" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="dezsete7" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+        
+           
+            
+             <div id="dezsete8" onclick="openModal();currentSlide(8)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="dezsete9" onclick="openModal();currentSlide(9)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="dezsete10" onclick="openModal();currentSlide(10)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+             <div id="dezsete11" onclick="openModal();currentSlide(11)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="dezsete12" onclick="openModal();currentSlide(12)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+             <div id="dezsete13" onclick="openModal();currentSlide(13)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+             
+            
+            <div id="placeholder-hhgg-mobile"></div>
+             
+            
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+            
+              <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+            
+            
+        
+       
+            
+    </div>
+    <div id="footer"><div id="credits">design e código por rita prates. feito com amor no brackets e alojado no github.</div>
+            <div id="language">
+       
+        <a href="10-7">   <div id="pt-active">PT</div></a> 
+            
+        <a href="../10-7">   <div id="en">EN</div></a>
+            
+        </div></div>
+       </div> 
+        
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
         
         
         </body>

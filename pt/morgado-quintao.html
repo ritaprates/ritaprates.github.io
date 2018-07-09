@@ -1,0 +1,218 @@
+
+<!doctype html>
+<html lan="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+    <title>rita prates – design</title>
+    <link rel="stylesheet" href="css/main.css">
+     <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
+   
+    </head>
+ 
+    <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext"  style="color: #ffffff;">1 / 5</div>
+      <img src="css/images/morgado-quintao/cover-full.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">2 / 5</div>
+      <img src="css/images/morgado-quintao/morgadoquintao-site.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">3 / 5</div>
+      <img src="css/images/morgado-quintao/assinaturas-full.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">4 / 5</div>
+      <img src="css/images/morgado-quintao/wine-profile-full.png" style="width:100%">
+    </div>
+      
+      
+      <div class="mySlides">
+      <div class="numbertext" style="color: #ffffff;">5 / 5</div>
+      <img src="css/images/morgado-quintao/flyer-full.png" style="width:100%">
+    </div>
+ 
+     
+      
+         
+ 
+      
+     
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)" style="color: #ffffff;">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)" style="color: #ffffff;">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
+    
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+        
+        
+       <div id="header">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a>
+        
+        <a href="contact">
+            <div id="contact">contacto</div></a>
+          
+           <a href="work">
+               <div id="work">trabalho</div></a>
+        
+        <a href="about">
+        <div id="about">sobre</div></a>
+        
+    
+          </div>
+        
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">sobre</div></a><br><br>
+        
+       
+          
+           <a href="work">
+            <div id="work-mobile">trabalho</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contacto</div></a>
+      
+        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="vinho1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #739ee7; border-bottom: 3px solid #739ee7;"> Vinho Morgado do Quintão Marketing e Promoção</span></div></div><br>
+                <div id="detail-text-box">
+                    Criação de vários materiais de marketing e promoção para Morgado do Quintão, um vinho do Algarve, incluindo uma <a href="http://morgadodoquintao.pt" target="_blank" style="color:#739ee7">landing page</a> HTML responsive simples, assinaturas de e-mail, uma ficha técnica do vinho e um flyer em formato DL, todos com base no conceito e packaging marítimos do vinho.
+                      
+                 </div>
+                <div id="detail-text-info-box"><span style="color: #739ee7"> Maio - Setembro 2017<br>Cliente: Morgado do Quintão</span></div>
+            
+            </div>
+            
+
+        
+         <div id="vinho2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="vinho3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="vinho4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="vinho5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+            
+            
+      
+            
+           
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+            
+             <div id="placeholder-punk"></div>
+          
+            
+            <div id="placeholder-hhgg-mobile"></div>
+            
+        
+       
+    </div>
+    <div id="footer"><div id="credits">design e código por rita prates. feito com amor no brackets e alojado no github.</div>
+            <div id="language">
+       
+        <a href="morgado-quintao">   <div id="pt-active">PT</div></a> 
+            
+        <a href="../morgado-quintao">   <div id="en">EN</div></a>
+            
+        </div></div>
+       </div> 
+        
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+        
+        
+        </body>
+        
+        </html>

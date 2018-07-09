@@ -1,52 +1,231 @@
 
 <!doctype html>
-<html lan="pt">
+<html lan="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
     <title>rita prates – design</title>
     <link rel="stylesheet" href="css/main.css">
      <link rel='shortcut icon' type='image/x-icon' href="favicon.ico"/>
    
     </head>
+ 
     <body>
+                    
+            <!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img src="css/images/about-blank/capa.png" style="width:100%">
+    </div>
+
+   
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img src="css/images/about-blank/diagrama.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img src="css/images/about-blank/tschichold1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img src="css/images/about-blank/tschichold2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img src="css/images/about-blank/maxbill1.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img src="css/images/about-blank/maxbill2.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img src="css/images/about-blank/text.png" style="width:100%">
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img src="css/images/about-blank/contra-capa.png" style="width:100%">
+    </div>
+      
+      
+     
+      
+      
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+   
     
-    <div id="main" class="centered">
+  </div>
+</div>
+    
+    <div id="main-work" class="centered">
+       
         
-         <a href="index">
+       <div id="header">  <a href="index">
         <div id="logo">
-        <p> <span style='color:#525252'>rita</span>prates</p>
+         <span style='color:#525252'>rita</span>prates
             
         </div></a>
         
-        
+        <a href="contact">
+            <div id="contact">contacto</div></a>
+          
+           <a href="work">
+               <div id="work">trabalho</div></a>
         
         <a href="about">
-        <div id="about"><p>sobre</p></div></a>
+        <div id="about">sobre</div></a>
         
-        
-        <a href="work">
-            <div id="work"><p>trabalho</p></div></a>
-        
-        <a href="contact">
-         <div id="contact"><p>contactos</p></div></a>
-        
-        
-      
-       
-        
-        
-<div id="footer"><p>design e implementação por rita prates. feito com amor no brackets e alojado no github.</p></div> 
-        
-        <div id="language">
-       
-        <a href="index">   <div id="pt-active">PT</div></a> 
-            
-        <a href="../index">   <div id="en">EN</div></a>
-            
-        </div>
-        
-    </div>
     
+          </div>
+        
+          <div id="header-mobile">  <a href="index">
+        <div id="logo">
+         <span style='color:#525252'>rita</span>prates
+            
+        </div></a><br><br>
+              
+               <a href="about">
+        <div id="about-mobile">sobre</div></a><br><br>
+        
+       
+          
+           <a href="work">
+            <div id="work-mobile">trabalho</div></a><br><br>
+              
+               <a href="contact">
+         <div id="contact-mobile">contacto</div></a>
+      
+        
+    
+          </div><br><br><br><br><br><br>
+        
+        <div id="intro">
+        
+       
+            
+            
+
+        
+       
+            <div id="blank1" onclick="openModal();currentSlide(1)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            <div id="detail-text"><div id="detail-text-title-box"> <div id="detail-text-title"><span style="color: #a4d9fa; border-bottom: 3px solid #a4d9fa;"> about: blank</span></div></div><br>
+                <div id="detail-text-box">
+                about: blank é uma revista que se foca no trabalho de Jan Tschichold e Max Bill e nas diferenças entre as suas ideologias, particularmente depois da Segunda Guerra Mundial, quando Tschichold reviu os seus princípios de design. Consiste em três textos: um sobre cada designer e o seu trabalho e um que confronta as suas ideologias. Os textos são compostos por excertos de outros textos sobre ambos os designers, alguns escritos pelos próprios. Estes excertos estão identificados por autor e título através de marcas através de marcas gráficas presentes em toda a revista. Os textos são ilustrados por imagens do trabalho de cada autor. Tentámos evitar usar imagens nas mesmas páginas que o texto uma vez que os textos são elementos gráficos por si só, devido à indentação e diferentes pesos de tipos de letra usados para enfatizar os diferentes excertos.
+                
+<br><br>
+Projecto feito em conjunto com Eliana Gomes e Raquel Russo.</div>
+                <div id="detail-text-info-box"><span style="color: #a4d9fa"> Dezembro 2013<br>Trabalho Universitário</span></div>
+            
+            </div>
+            
+
+        
+         <div id="blank2" onclick="openModal();currentSlide(2)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+         <div id="blank3" onclick="openModal();currentSlide(3)" class="hover-shadow" style="cursor: pointer !important;"></div>
+        
+        <div id="blank4" onclick="openModal();currentSlide(4)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="blank5" onclick="openModal();currentSlide(5)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="blank6" onclick="openModal();currentSlide(6)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            <div id="blank7" onclick="openModal();currentSlide(7)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+        
+            
+            
+           
+            
+             <div id="blank8" onclick="openModal();currentSlide(8)" class="hover-shadow" style="cursor: pointer !important;"></div>
+            
+            
+             
+            
+            <div id="placeholder-hhgg-mobile"></div>
+             <div id="placeholder-hhgg-mobile"></div>
+            
+        
+        <div id="placeholder-punk"></div>
+            <div id="placeholder-punk"></div>
+        
+       
+            
+    </div>
+    <div id="footer"><div id="credits">design e código por rita prates. feito com amor no brackets e alojado no github.</div>
+            <div id="language">
+       
+        <a href="about-blank">   <div id="pt-active">PT</div></a> 
+            
+        <a href="../about-blank">   <div id="en">EN</div></a>
+            
+        </div></div>
+       </div> 
+        
+        
+        <script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
         
         
         </body>
