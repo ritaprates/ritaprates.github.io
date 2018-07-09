@@ -912,11 +912,12 @@ margin-right: 2.12%;
     background-size: cover;
     position: relative;
     padding-top: 38.7% !important;
-    left: 0px !important;
+    left: -20.3% !important;
     float: left;
     margin-right: 2.12%;
     margin-bottom: 2.12%;
     margin-top: -20.3%;
+  
     background-image: url(images/letterpress.png);
     
 }
@@ -933,8 +934,9 @@ margin-right: 2.12%;
     background-size: cover;
     position: relative;
     padding-top: 18.4% !important;
-    left: 0px !important;
+    left: 61.4% !important;
     float: left;
+    margin-top: -20.6%;
 margin-right: 0%;
     margin-bottom: 2.12%;
     background-image: url(images/welcome-email.png);
@@ -1045,6 +1047,19 @@ margin-right: 0%;
     background-size: contain;
     position: relative;
     padding-top: 59.1%; !important;
+    left: 0px !important;
+    float: left;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+   visibility: hidden;
+    
+}
+
+#placeholder-work {
+     width: 38.7%;
+    background-size: contain;
+    position: relative;
+    padding-top: 18-35%; !important;
     left: 0px !important;
     float: left;
 margin-right: 2.12%;
@@ -4617,7 +4632,7 @@ margin-right: 2.12%;
     position: relative;
 
     padding-top: 65.96% !important;
-   margin-top: -20.5%;
+   margin-top: -27%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-2.png);
