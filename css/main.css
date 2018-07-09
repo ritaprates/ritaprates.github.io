@@ -252,7 +252,7 @@ color: #525252;
     line-height: 50px;  
     font-family:'league_spartanregular';
     font-size: 18px;
-color: #525252;
+color: #5EDCE1;
   
 }
 
@@ -294,6 +294,7 @@ color: #5EDCE1;
 
 
 
+
 #work:hover {
     
     color: #5EDCE1;
@@ -323,7 +324,7 @@ color: #525252;
     line-height: 50px;  
     font-family:'league_spartanregular';
     font-size: 18px;
-color: #525252;
+color: #5EDCE1;
 
 }
 
@@ -393,7 +394,7 @@ color: #525252;
     line-height: 50px;  
     font-family:'league_spartanregular';
     font-size: 18px;
-color: #525252;
+color: #5EDCE1;
     
 }
 
@@ -459,100 +460,115 @@ color: #5EDCE1;
 }
 
 #insta {
-    width: 51px;
-    height: 51px;
+    width: 80px;
+    height: 80px;
     position: relative;
    float: left;
     margin-right: 30px;
     top: 0px;
-    background-image: url(images/insta.png);
+    background-image: url(images/contact-insta.png);
+     background-size: cover;
     
 }
 
 #insta:hover {
     
-    background-image: url(images/insta-hover.png);
+    background-image: url(images/contact-insta-hover.png);
 }
 
 #insta-mobile {
-    width: 30px;
-    height: 30px;
+    width: 80px;
+    height: 80px;
     position: relative;
    float: left;
     margin-right: 20px;
     top: 0px;
     background-size: contain;
-    background-image: url(images/insta.png);
+    background-image: url(images/contact-insta.png);
+     background-size: cover;
     
 }
 
 #insta-mobile:hover {
     
-    background-image: url(images/insta-hover.png);
+    background-image: url(images/contact-insta-hover.png);
 }
 
-#tumblr {
-    width: 51px;
-    height: 51px;
+#linkedin {
+    width: 85px;
+    height: 80px;
     position: relative;
     float: left;
     margin-right: 30px;
     top: 0px;
-    background-image: url(images/tumblr.png);
+    background-image: url(images/contact-linkedin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     
 }
 
-#tumblr:hover {
+#linkedin:hover {
     
-    background-image: url(images/tumblr-hover.png);
+    background-image: url(images/contact-linkedin-hover.png);
 }
 
-#tumblr-mobile {
-    width: 30px;
-    height: 30px;
+#linkedin-mobile {
+    width: 85px;
+    height: 80px;
     position: relative;
     float: left;
     margin-right: 20px;
     top: 0px;
      background-size: contain;
-    background-image: url(images/tumblr.png);
+    background-image: url(images/contact-linkedin.png);
+    background-repeat: no-repeat;
     
 }
 
-#tumblr-mobile:hover {
+#linkedin-mobile:hover {
     
-    background-image: url(images/tumblr-hover.png);
+    background-image: url(images/contact-linkedin-hover.png);
 }
 
 #behance {
-    width: 51px;
-    height: 51px;
+    width: 102px;
+    height: 80px;
     position: relative;
     float: left;
     top: 0px;
-    background-image: url(images/behance.png);
+    background-image: url(images/contact-behance.png);
+    background-size: cover;
     
 }
 
 #behance:hover {
     
-    background-image: url(images/behance-hover.png);
+    background-image: url(images/contact-behance-hover.png);
 }
 
 #behance-mobile {
-    width: 30px;
-    height: 30px;
+    width: 102px;
+    height: 80px;
     position: relative;
     float: left;
     top: 0px;
      background-size: contain;
-    background-image: url(images/behance.png);
+    background-image: url(images/contact-behance.png);
+    background-size: cover;
     
 }
 
 #behance-mobile:hover {
     
-    background-image: url(images/behance-hover.png);
+    background-image: url(images/contact-behance-hover.png);
+}
+
+#icons {
+    
+    font-family:'montserratlight';
+    font-size: 10px;
+color: #525252;   
+    
 }
 
 #contact-text {
@@ -592,7 +608,7 @@ color: #525252;
 
 #hhgg {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -636,7 +652,7 @@ line-height: 30px;
 
 #global {
      width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.3% !important;
     float: left;
@@ -654,7 +670,7 @@ line-height: 30px;
 
 #seb {
      width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.3% !important;
     float: left;
@@ -671,7 +687,7 @@ line-height: 30px;
 
 #blank {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.35% !important;
     left: 0px !important;
@@ -689,7 +705,7 @@ line-height: 30px;
 
 #dezsete {
      width: 18.3%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.3% !important;
     left: 0px !important;
@@ -707,7 +723,7 @@ line-height: 30px;
 
 #poppunk {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 38.7% !important;
@@ -715,6 +731,7 @@ line-height: 30px;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/poppoppunk.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -723,6 +740,7 @@ line-height: 30px;
     
     
     background-image: url(images/poppoppunk-hover.png);
+    background-repeat: no-repeat;
 }
 
 
@@ -742,7 +760,7 @@ margin-right: 2.12%;
 
 #hhgg-web {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 38.7% !important;
@@ -761,7 +779,7 @@ margin-right: 2.12%;
 
 #purpose {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.35% !important;
     left: 0px !important;
@@ -779,7 +797,7 @@ margin-right: 2.12%;
 
 #app {
      width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.35% !important;
     left: 0px !important;
@@ -795,6 +813,67 @@ margin-right: 2.12%;
     background-image: url(images/app-hover.png);
 }
 
+
+#storyo-fb-onboarding {
+    width: 38.58%;
+    background-size: cover;
+    position: relative;
+
+    padding-top: 38.6% !important;
+   margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/onboarding-fb.png);
+    
+}
+
+#storyo-fb-onboarding:hover {
+    
+    background-image: url(images/onboarding-fb-hover.png);
+}
+
+#storyo-site {
+     width: 18.3%;
+    background-size: cover;
+    position: relative;
+    padding-top: 18.3% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    margin-top: 20.3%;
+    background-image: url(images/storyo-site.png);
+    
+}
+
+#storyo-site:hover {
+    
+    background-image: url(images/storyo-site-hover.png);
+}
+
+
+#punkrockeffect {
+     width: 38.6%;
+    background-size: cover;
+    position: relative;
+    padding-top: 18.35% !important;
+    left: 0px !important;
+    float: left;
+    margin-top: -20.5%;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/punkrockeffect.png);
+    background-repeat: no-repeat;
+    
+}
+
+ #punkrockeffect:hover{
+        
+        background-image: url(images/punkrockeffect-hover.png);
+    }
+    
+
+
+
 #other {
    
    width: 18.3%;
@@ -809,7 +888,7 @@ margin-right: 2.12%;
 
 #craft {
     width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 38.7% !important;
@@ -817,6 +896,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-2.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -824,11 +904,12 @@ margin-right: 2.12%;
     
     background-image: url(images/craft-2-hover.png);
     right: 0px;
+    background-repeat: no-repeat;
 }
 
 #letterpress {
      width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 38.7% !important;
     left: 0px !important;
@@ -847,9 +928,106 @@ margin-right: 2.12%;
 }
 
 
+#welcome-email {
+    width: 38.6%;
+    background-size: cover;
+    position: relative;
+    padding-top: 18.4% !important;
+    left: 0px !important;
+    float: left;
+margin-right: 0%;
+    margin-bottom: 2.12%;
+    background-image: url(images/welcome-email.png);
+    background-repeat: no-repeat;
+    
+}
+
+#welcome-email:hover {
+    
+    background-image: url(images/welcome-email-hover.png);
+}
+
+
+#storyo-cities {
+    width: 38.7%;
+    background-size: cover;
+    position: relative;
+    padding-top: 38.7% !important;
+    left: 0px !important;
+    float: left;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/branded-cities.png);
+    
+}
+
+#storyo-cities:hover {
+    
+    background-image: url(images/branded-cities-hover.png);
+    
+}
+
+#morgadoquintao {
+    width: 59.15%;
+    background-size: cover;
+    position: relative;
+    padding-top: 38.7% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/morgadoquintao.png);
+    
+}
+
+#morgadoquintao:hover {
+    
+    background-image: url(images/morgadoquintao-hover.png);
+    
+}
+
+#storyo-screenshots {
+    width: 38.7%;
+    background-size: cover;
+    position: relative;
+    padding-top: 18.4% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/storyo-screenshots.png);
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-screenshots:hover {
+    
+    background-image: url(images/storyo-screenshots-hover.png);
+    background-repeat: no-repeat;
+}
+
+
+#storyo-social {
+    width: 38.7%;
+    background-size: cover;
+    position: relative;
+    padding-top: 38.7% !important;
+    left: 0px !important;
+    float: left;
+    margin-left: 20.3%;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/storyo-social.png);
+    
+}
+
+#storyo-social:hover {
+    
+    background-image: url(images/storyo-social-hover.png);
+    
+}
+
 #unwritten {
     width: 18.3%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 18.3% !important;
     left: 0px !important;
@@ -866,7 +1044,7 @@ margin-right: 2.12%;
      width: 38.7%;
     background-size: contain;
     position: relative;
-    padding-top: 18.35% !important;
+    padding-top: 59.1%; !important;
     left: 0px !important;
     float: left;
 margin-right: 2.12%;
@@ -876,17 +1054,205 @@ margin-right: 2.12%;
 }
 
 #nutshell {
-    width: 470px;
-    height: 450px;
-    position: absolute;
+    width: 38.7%;
+   
+    position: relative;
     left: 0px;
-    top: 170px;
     text-align: left;
     font-family: 'league_spartanregular';
     font-size: 16px;
     color: #525252;
     
+    background-color: aqua;
 }
+
+#nutshell-about {
+    width: 49.97%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 49.97% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    
+   
+    float: left;
+    background-color: #e9fbfe;
+  
+    
+}
+
+#downloads {
+    
+    width: 29.5%;
+      background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 13.7% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-left: 20.5%;
+    margin-top: -15.8%;
+    float: left;
+    background-color: #d8fcf4;
+    overflow: hidden;
+    
+    
+}
+
+
+#get-cv {
+    
+    width: 50%;
+     background-size: cover;
+    position: absolute;
+   left: 0px;
+    height: 100%;
+   
+    margin-left: 0;
+   
+    margin-top: -46.45%;
+  
+ 
+    background-image: url(images/1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    
+}
+
+#get-cv:hover {
+    
+    background-image: url(images/1-hover.png);
+}
+
+
+#get-portfolio {
+    
+    width: 50%;
+     background-size: cover;
+    position: absolute;
+   left: 0px;
+   height: 100%;
+   
+    margin-left: 50%;
+   
+    margin-top: -46.45%;
+  
+ 
+    background-image: url(images/2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#get-portfolio:hover {
+    
+    background-image: url(images/2-hover.png);
+}
+
+
+#downloads-mobile {
+    
+    display: none;
+}
+
+#nutshell-about-dynamic {
+    display: none;
+  
+  
+    
+    
+}
+
+
+ #things-that-matter {
+   display: block;
+        background-size: cover;
+    background-color: #f3f4ff !important;
+   width: 79.57%;
+    position: relative;
+    left: 0px;
+    float: left;
+     text-align: left;
+   font-family: 'montserrat-medium';
+    font-size: 18px;
+    color: #525252;
+    line-height: 27px;
+    padding: 20px !important;
+        padding-top: 30px !important;
+     margin-left: 20.42%;
+        
+    margin-bottom: 2.12%;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+        
+    }
+
+
+#useless-facts {
+   display: block;
+        background-size: cover;
+    background-color: #feede9 !important;
+   width: 59.15%;
+    position: relative;
+    left: 0px;
+    float: left;
+     text-align: left;
+   font-family: 'montserrat-medium';
+    font-size: 18px;
+    color: #525252;
+    line-height: 27px;
+    padding: 20px !important;
+        padding-top: 30px !important;
+        
+    margin-bottom: 25%;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+        
+    }
+
+
+.nutshell-text {
+    padding: 20px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+      text-align: left;
+    font-family: 'montserrat-medium';
+    font-size: 18px;
+    color: #525252;
+    line-height: 27px;
+}
+
+#photo-about {
+     width: 47.85%;
+    background-size: cover;
+    position: relative;
+    padding-top: 65.96% !important;
+    margin-left: 0;
+    float: left;
+     margin-bottom: 2.12%;
+    background-image: url(images/foto-about.jpg);
+    
+    
+}
+
 
 #cv {
     
@@ -900,6 +1266,9 @@ margin-right: 2.12%;
     font-size: 20px;
     color: #5EDCE1;
 }
+
+
+
 
 
 #cv:hover {
@@ -1055,14 +1424,13 @@ margin-right: 2.12%;
 
 #punk1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/pop-punk/punk1.gif); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1075,7 +1443,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/capa-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1086,7 +1454,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/poppunk.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1098,7 +1466,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/greenday1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1110,7 +1478,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/greenday2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1122,7 +1490,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/blink1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1134,7 +1502,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/blink2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1157,7 +1525,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/fob1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1168,18 +1536,17 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/fob2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #punk10 {
    width: 100%;
-    background-size: contain;
     padding-top: 59.15% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/pop-punk/atl1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1204,7 +1571,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/atl2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1217,7 +1584,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/5sos1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1237,7 +1604,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/5sos2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1248,19 +1615,18 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/back-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #punk15 {
    width: 100%;
-    background-size: contain;
     padding-top: 59.15% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/pop-punk/stack-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1268,14 +1634,13 @@ margin-right: 2.12%;
 
 #hhggweb1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/hitchhikers-web/hhggweb.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1288,7 +1653,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/characters1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1300,7 +1665,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/characters2.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1314,7 +1679,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/gallery-rect.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1327,7 +1692,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/video-rect.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1340,7 +1705,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/trivia.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1353,19 +1718,18 @@ margin-right: 2.12%;
 
     float: left;
     background-image: url(images/hitchhikers-web/mobile1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhggweb8 {
    width: 100%;
-    background-size: contain;
     padding-top: 59.15% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/hitchhikers-web/mobile2-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1379,20 +1743,19 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile3-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhggweb10 {
    width: 18.3%;
-    background-size: contain;
     padding-top: 18.3% !important;
     float: left;
     margin-bottom: 2.12%;
     margin-right: 2.12%;
     background-image: url(images/hitchhikers-web/mobile4-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1405,7 +1768,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile5-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1417,7 +1780,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile6-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1429,7 +1792,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile7-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1437,14 +1800,13 @@ margin-right: 2.12%;
 
 #hhgg1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/hitchhikers/hhgg1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -1465,20 +1827,18 @@ margin-right: 2.12%;
 
 #hhgg2 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/cardboard1.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg3 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1486,27 +1846,25 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/contracapa.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/cardboard2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhgg5 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1514,13 +1872,12 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/text-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg6 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1528,27 +1885,25 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/fish-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg7 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/destaque-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhgg8 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1556,42 +1911,39 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/guide1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhgg9 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/guide2.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhgg10 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/whale-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #hhgg11 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1599,13 +1951,12 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/dolphins-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg12 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1613,13 +1964,12 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/earth-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #hhgg13 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1627,27 +1977,25 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/button-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #globalisation1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/globalisation/capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #globalisation2 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1655,26 +2003,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/globalisation/diagrama.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #globalisation3 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/globalisation-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #globalisation4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1682,40 +2028,37 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/globalisation/bandeira-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #globalisation5 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/alterglobalisation.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #globalisation6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/seattle-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #globalisation7 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1724,14 +2067,13 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/globalisation/banksy-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #globalisation8 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -1739,40 +2081,37 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/contracapa-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #globalisation9 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/capafull-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/rodrigues-lustig/capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -1780,13 +2119,12 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues3 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1794,40 +2132,37 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb2.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb3-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #rodrigues5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues6 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1835,54 +2170,50 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #rodrigues7 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig3.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #rodrigues8 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/contra-capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #blank1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/about-blank/capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #blank2 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1890,40 +2221,37 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/about-blank/diagrama.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #blank3 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/tschichold1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #blank4 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/tschichold2-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #blank5 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1931,26 +2259,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/about-blank/maxbill1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #blank6 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/maxbill2.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #blank7 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -1959,41 +2285,38 @@ margin-right: 2.12%;
     margin-left: 20.48%;
     float: left;
     background-image: url(images/about-blank/text-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #blank8 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/contra-capa-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #dezsete1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/10-7/capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete2 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2001,13 +2324,12 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/manhattan-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete3 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2015,27 +2337,25 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/lisbonstory-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete4 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/berlin-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #dezsete5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -2043,13 +2363,12 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/tokyo-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete6 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2057,13 +2376,12 @@ margin-right: 2.12%;
     margin-left: 40.85%;
     float: left;
     background-image: url(images/10-7/nystories.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete7 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2071,28 +2389,26 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/paris-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #dezsete8 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/barcelona.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #dezsete9 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2101,13 +2417,12 @@ margin-right: 2.12%;
     margin-left: 40.86%;
     float: left;
     background-image: url(images/10-7/newyork-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete10 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2115,26 +2430,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/midnightparis-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete11 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/rome-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete12 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2142,21 +2455,18 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/lisbon-detail-sq.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
-    
+    background-size: cover;
 }
 
 #dezsete13 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/tokyo-detail-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -2164,20 +2474,18 @@ margin-right: 2.12%;
 
 #purpose1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/purpose/books+ipad-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose2 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2185,26 +2493,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/capamapa.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose3 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/rosto-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2212,14 +2518,13 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/criticalfaculty-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose5 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2227,26 +2532,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/text-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/3cadernos-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose7 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2254,14 +2557,13 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/caderno1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose8 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2269,14 +2571,13 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/caderno2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose9 {
    width: 18.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 18.3% !important;
@@ -2284,13 +2585,12 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/caderno3-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose10 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2298,26 +2598,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad1.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose11 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose12 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2325,21 +2623,19 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad3-sq.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 #purpose13 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad4.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -2360,20 +2656,18 @@ margin-right: 2.12%;
 
 #volta1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/volta/app1-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta2 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -2381,13 +2675,12 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/feed-vert.gif); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta3 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2395,13 +2688,12 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/volta/app3.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta4 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2409,14 +2701,13 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/app4.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #volta5 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -2425,26 +2716,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/gift-vert.gif); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta6 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/volta/challenge-vert.gif); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta7 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2452,28 +2741,26 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/profile+msgs.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #volta8 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/volta/profile-vert.gif); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #volta9 {
    width: 38.3%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2483,13 +2770,13 @@ margin-right: 2.12%;
     margin-top: -20.42%;
     float: left;
     background-image: url(images/volta/achievements-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #volta10 {
    width: 38.7%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -2505,21 +2792,19 @@ margin-right: 2.12%;
 
 #craft1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/craft-based/poster-main-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #craft2 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2528,13 +2813,13 @@ margin-right: 2.12%;
    
     float: left;
     background-image: url(images/craft-based/wallpaper-sq.jpg); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #craft3 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2542,40 +2827,37 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/craft-based/pink.jpg); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #craft4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-based/green-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #craft5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-based/lilac-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #craft6 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2583,27 +2865,25 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-based/orange.jpg); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/letterpress/whatif-red-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #letterpress2 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2611,26 +2891,24 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/letterpress/whatif-clear-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress3 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/pennylane.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress4 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2639,53 +2917,49 @@ margin-right: 2.12%;
     margin-left: 20.48%;
     float: left;
     background-image: url(images/letterpress/kaleidoscope-orange-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #letterpress5 {
    width: 38.7%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/kaleidoscope-pink-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/stars-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress7 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/rooftop.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress8 {
    width: 59.15%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 38.7% !important;
@@ -2693,17 +2967,1091 @@ margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/satellite.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 
+#punkrock1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/punkrockeffect/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#punkrock2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/home-100.png); 
+    background-size: cover;
+    
+}
+
+#punkrock3 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/explore-gif-100-optimized.gif); 
+    background-size: cover;
+    
+}
+
+#punkrock4 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/organize-gif-100-optimized.gif); 
+    background-size: cover;
+    
+}
+
+
+#punkrock5 {
+   width: 18.3%;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/explore-SQ.png); 
+    background-size: cover;
+    
+}
+
+#punkrock6 {
+   width: 18.3%;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/organize-sq.png); 
+    background-size: cover;
+    
+}
+
+#punkrock7 {
+   width: 18.3%;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/rock-sq.png); 
+    background-size: cover;
+    
+}
+
+#punkrock8 {
+   width: 18.3%;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/punk-sq.png); 
+    background-size: cover;
+    
+}
+
+#punkrock9 {
+   width: 18.3%;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/about-sq.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-cities1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/branded-cities/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-cities2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/icons-100.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities3 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/barcelona+berlin.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities4 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/branded-cities/chicago+mex.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-cities5 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/branded-cities/hanoi+istanbul.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities6 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/lasvegas+marrakech.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities7 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/lx+ldn+mad-100.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities8 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/branded-cities/ny+paris.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-cities9 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/porto+prague.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities10 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/branded-cities/rio+rome.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities11 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/branded-cities/sf+sp.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities12 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/siem+ubud.png); 
+    background-size: cover;
+    
+}
+
+
+
+#fb-onboarding1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#fb-onboarding2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/before-after-100.png); 
+    background-size: cover;
+    
+}
+
+#fb-onboarding3 {
+   width: 38.7%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/london-vert.png); 
+    background-size: cover;
+    
+}
+
+#fb-onboarding4 {
+   width: 59.15%;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 40.8%;
+    margin-top: -40.8%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/manchester.png); 
+    background-size: cover;
+    
+}
+
+
+#fb-onboarding5 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/roma-alcochete-100.png); 
+    background-size: cover;
+    
+}
+
+#fb-onboarding6 {
+   width: 38.7%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    margin-left: 61.3%;
+    float: left; 
+    background-size: cover;
+    background-image: url(images/storyo-onboarding-fb/vertical.gif);
+    
+}
+
+
+
+#welcome-email1 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/welcome-email/cover-100.png); 
+    
+}
+
+
+#welcome-email2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/welcome-email/conjunto-100.png); 
+}
+
+#welcome-email3 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/welcome-email/email1-full.png); 
+    
+}
+
+#welcome-email4 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/welcome-email/email2-full.png); 
+    
+}
+
+
+#welcome-email5 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/welcome-email/email3-full.png); 
+    
+}
+
+
+#storyo-social1 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-social/cover-100.png); 
+    
+}
+
+
+#storyo-social2 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/amigo-gringo.png); 
+    
+}
+
+#storyo-social3 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/familia-sq.png); 
+    
+}
+
+#storyo-social4 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/barco-sq.png); 
+    
+}
+
+
+#storyo-social5 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/canyon-sq.png);
+}
+
+
+#storyo-social6 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/friends-sq.png); 
+}
+
+
+#storyo-social7 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/storyo-social/natal-full.png);
+}
+
+
+#storyo-social8 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/2-0-full.png); 
+    
+}
+
+
+#storyo-social9 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/product-hunt-sq.png); 
+    
+}
+
+
+#storyo-social10 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/sxsw-100.png); 
+}
+
+#storyo-social11 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/collab1-sq.png);
+    
+}
+
+#storyo-social12 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/collab2-sq.png); 
+    
+}
+
+#storyo-social13 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/weather-sq.png); 
+
+    
+}
+
+#storyo-social14 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/shutterstock-full.gif); 
+    
+}
+
+
+
+#storyo-screenshots1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-screenshots2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots1-0-100.png); 
+     
+    
+}
+
+#storyo-screenshots3 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-concept-100.png); 
+    
+    
+}
+
+#storyo-screenshots4 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots2-0-original.png); 
+
+    
+}
+
+
+#storyo-screenshots5 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.15% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-vert.gif);
+    
+}
+
+
+#storyo-screenshots6 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-top: -20.5%;
+    margin-right: 20.5%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots2-0-colour.png); 
+     
+}
+
+
+#storyo-screenshots7 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-dutch-sq.png);
+    
+}
+
+
+#storyo-screenshots8 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-uk-sq.png); 
+    
+}
+
+
+#storyo-screenshots9 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-spanish-sq.png); 
+    
+}
+
+
+#storyo-screenshots10 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-french-sq.png); 
+}
+
+#storyo-screenshots11 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-germany-sq.png);
+    
+}
+
+#storyo-screenshots12 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-italian-sq.png); 
+    
+    
+}
+
+#storyo-screenshots13 {
+   width: 18.3%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18.3% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-portuguese-sq.png); 
+    
+
+    
+}
+
+#storyo-screenshots14 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-turkish-full.png); 
+
+}
+
+#storyo-screenshots15 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-portuguese-br-full.png); 
+    
+}
+
+#storyo-screenshots16 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-spanish-mex-sq.png); 
+    
+}
+
+#storyo-screenshots17 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-malay-sq.png); 
+    
+}
+
+#storyo-screenshots18 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-thai-full.png); 
+    
+}
+
+#storyo-screenshots19 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-vietnamese-sq.png); 
+    
+}
+
+#storyo-screenshots20 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-russian-sq.png);
+    
+}
+
+
+#storyo-site1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-site/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-site2 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/home2-0-sq.png); 
+    
+}
+
+#storyo-site3 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-1.png); 
+    
+}
+
+#storyo-site4 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-2.png); 
+    
+}
+
+
+#storyo-site5 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-3.png);
+}
+
+
+#storyo-site6 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-4-100.png); 
+}
+
+
+#storyo-site7 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/summer1-0-100.png);
+}
+
+
+#storyo-site8 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/insights-sq.png); 
+    
+}
+
+
+#storyo-site9 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/blog-sq.png); 
+    
+}
+
+
+#storyo-site10 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/storyo-site/about-full.png); 
+}
+
+#storyo-site11 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/invite-email-100.png); 
+}
+
+
+#vinho1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/morgado-quintao/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#vinho2 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/morgadoquintao-site.png); 
+    
+}
+
+#vinho3 {
+   width: 38.7%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/assinaturas-sq.png); 
+    
+}
+
+#vinho4 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/wine-profile-100.png); 
+    
+}
+
+
+#vinho5 {
+   width: 59.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 38.7% !important;
+   margin-bottom: 2.12%;
+    margin-left: 40.8%;
+    float: left;
+    background-image: url(images/morgado-quintao/flyer-full.png);
+}
+
 
 
 #detail-text {
    width: 100%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     height: auto;
@@ -2747,8 +4095,8 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-    font-family: 'Coves-Light';
-     font-size: 20px;
+    font-family: 'montserrat-light';
+     font-size: 16px;
     color: #525252;
     line-height: 30px;
 }
@@ -2778,8 +4126,8 @@ margin-right: 2.12%;
     left: 0px;
     top: 1030px;
      text-align: left;
-    font-family: 'Coves-Light';
-    font-size: 20px;
+    font-family: 'montserrat-light';
+    font-size: 16px;
     color: #525252;
     text-align: justify;
  
@@ -3030,6 +4378,9 @@ img.hover-shadow {
 /* --- MEDIA QUERIES --- */
 
 
+
+
+
 @media screen and (max-width: 858px) {
     
     #header {
@@ -3066,9 +4417,12 @@ img.hover-shadow {
         
     }
     
+    
+    
+    
     #hhgg {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3088,17 +4442,19 @@ img.hover-shadow {
 margin-right: 0%;
     margin-bottom: 2.12%;
     float: left;
+    background-repeat: no-repeat;
     
 }
 
     #global {
      width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     float: right;
      margin-bottom: 2.12%;
     background-image: url(images/globalisation.png);
+    background-repeat: no-repeat;
     
     
 }
@@ -3107,12 +4463,13 @@ margin-right: 0%;
 
 #seb {
      width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/rodrigues.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3120,7 +4477,7 @@ margin-right: 0%;
 
 #blank {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     left: 0px !important;
@@ -3128,6 +4485,7 @@ margin-right: 0%;
     margin-right: 2.12%;
     margin-bottom: 2.12%;
     background-image: url(images/blank.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3135,7 +4493,7 @@ margin-right: 0%;
 
 #dezsete {
      width: 31.92%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     left: 0px !important;
@@ -3143,6 +4501,7 @@ margin-right: 0%;
     margin-right: 0%;
     margin-bottom: 2.12%;
     background-image: url(images/dezsete.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3162,7 +4521,7 @@ margin-right: 2.12%;
 
 #poppunk {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 65.96% !important;
@@ -3170,6 +4529,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/poppoppunk.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3182,7 +4542,7 @@ margin-right: 2.12%;
      padding-top: 31.92% !important;
 margin-right: 2.12%;
     margin-bottom: 2.12%;
-    float: ;
+    background-repeat: no-repeat;
   
     
   
@@ -3190,7 +4550,7 @@ margin-right: 2.12%;
 
 #hhgg-web {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 65.96% !important;
@@ -3199,6 +4559,7 @@ margin-right: 2.12%;
     float: left;
     margin-top: 0;
     background-image: url(images/web.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3206,7 +4567,7 @@ margin-right: 2.12%;
 
 #purpose {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     left: 0px !important;
@@ -3214,6 +4575,7 @@ margin-right: 2.12%;
 
     margin-bottom: 2.12%;
     background-image: url(images/purpose.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3221,7 +4583,7 @@ margin-right: 2.12%;
 
 #app {
      width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 31.92% !important;
     left: 0px !important;
@@ -3230,6 +4592,7 @@ margin-right: 0%;
     margin-left: 2.12%;
     margin-bottom: 2.12%;
     background-image: url(images/app.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3241,6 +4604,7 @@ margin-right: 0%;
     background-color: #5E74E1;
     position: relative;
      padding-top: 31.92% !important;
+    margin-left: -41%;
 margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
@@ -3249,14 +4613,15 @@ margin-right: 2.12%;
 
 #craft {
     width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 
     padding-top: 65.96% !important;
-   
+   margin-top: -20.5%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-2.png);
+    background-repeat: no-repeat;
     
 }
 
@@ -3264,7 +4629,7 @@ margin-right: 2.12%;
 
 #letterpress {
      width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
     padding-top: 65.96% !important;
     left: 0px !important;
@@ -3273,13 +4638,142 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     margin-top: 0%;
     background-image: url(images/letterpress.png);
+    background-repeat: no-repeat;
     
 }
+    
+    
+    #storyo-fb-onboarding {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+
+    padding-top: 65.96% !important;
+   margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/onboarding-fb.png);
+    background-repeat: no-repeat;
+    
+}
+    
+    #storyo-site {
+     width: 31.92%;
+    background-size: cover;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    margin-top: 33.7%;
+    background-image: url(images/storyo-site.png);
+    
+}
+
+
+
+
+#punkrockeffect {
+     width: 65.96%;
+    background-size: cover;
+    position: relative;
+    padding-top: 31.92% !important;
+    left: 0px !important;
+    float: left;
+    margin-top: 0;
+margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    background-image: url(images/punkrockeffect.png);
+    background-repeat: no-repeat;
+    
+}
+    
+   
+    
+    
+#welcome-email {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+    padding-top: 31.3% !important;
+    left: 0px !important;
+    float: left;
+margin-right: 0%;
+    margin-bottom: 2.12%;
+    background-image: url(images/welcome-email.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+#storyo-cities {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+    padding-top: 65.96% !important;
+    left: 0px !important;
+    float: left;
+    margin-left: 34.3%;
+    margin-right: 0;
+    margin-bottom: 2.12%;
+    background-image: url(images/branded-cities.png);
+    background-repeat: no-repeat;
+    
+}
+    
+    
+    #morgadoquintao {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    padding-top: 65.56% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    background-image: url(images/morgadoquintao.png);
+    
+}
+
+
+
+#storyo-screenshots {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+    padding-top: 31.3% !important;
+    left: 0px !important;
+    float: left;
+    margin-bottom: 2.12%;
+    margin-left: 34.3%;
+    margin-right: 2.12%;
+    background-image: url(images/storyo-screenshots.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+#storyo-social {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+    padding-top: 65.96% !important;
+    left: 0px !important;
+    margin-left: 34.2%;
+    float: left;
+    margin-bottom: 2.12%;
+    
+    background-image: url(images/storyo-social.png);
+    
+}
+
+
     
     #unwritten {
         display: none;
     }
 
+    
 
 
 
@@ -3291,10 +4785,10 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-    font-family: 'Coves-Light';
-     font-size: 18px;
+    font-family: 'montserrat-light';
+     font-size: 14px;
     color: #525252;
-    line-height: 30px;
+    line-height: 28px;
 }
 
 #detail-text-info-box {
@@ -3338,7 +4832,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/capa-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3349,7 +4843,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/poppunk.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3361,7 +4855,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/greenday1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3373,7 +4867,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/greenday2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3386,7 +4880,7 @@ margin-right: 2.12%;
    
     float: right;
     background-image: url(images/pop-punk/blink1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3399,16 +4893,18 @@ margin-right: 2.12%;
     margin-left: 2.12%;
     float: right;
     background-image: url(images/pop-punk/blink2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
     #punk6 {
         display: none;
+    
     }
     
      #punk7 {
         display: none;
+        
     }
     
    
@@ -3421,7 +4917,7 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/fob1.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3432,18 +4928,18 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: right;
     background-image: url(images/pop-punk/fob2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #punk10 {
    width: 100%;
-    background-size: contain;
+    background-size: cover;
     padding-top: 65.56% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/pop-punk/atl1.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3473,7 +4969,7 @@ margin-right: 2.12%;
         margin-left: 2.12%;
     float: right;
     background-image: url(images/pop-punk/atl2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
     
@@ -3486,7 +4982,7 @@ margin-right: 2.12%;
 
     float: right;
     background-image: url(images/pop-punk/5sos1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3498,7 +4994,7 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/pop-punk/5sos2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3509,19 +5005,18 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/pop-punk/back-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #punk15 {
    width: 100%;
-    background-size: contain;
     padding-top: 65.56% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/pop-punk/stack.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -3533,7 +5028,8 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/characters1-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3545,7 +5041,8 @@ margin-right: 2.12%;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/characters2.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3560,7 +5057,8 @@ margin-right: 2.12%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/hitchhikers-web/gallery-rect.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3573,7 +5071,8 @@ margin-right: 2.12%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/video-rect.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3586,7 +5085,8 @@ margin-right: 0;
     margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/trivia.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3599,19 +5099,20 @@ margin-right: 0;
 margin-left: 34.04%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile1-sq.png); 
-    background-size: contain;
+    background-size: cover;  
+    background-repeat: no-repeat;
     
 }
 
 
 #hhggweb8 {
    width: 100%;
-    background-size: contain;
     padding-top: 59.15% !important;
     float: left;
     margin-bottom: 2.12%;
     background-image: url(images/hitchhikers-web/mobile2-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3625,20 +5126,21 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile3-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhggweb10 {
    width: 48.94%;
-    background-size: contain;
     padding-top: 48.94% !important;
     float: left;
     margin-bottom: 2.12%;
     margin-right: 0;
     background-image: url(images/hitchhikers-web/mobile4-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3651,7 +5153,8 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile5-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3663,7 +5166,8 @@ margin-left: 34.04%;
     margin-right: 0%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile6-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3676,7 +5180,8 @@ margin-left: 34.04%;
     margin-left: 51.06%;
     float: left;
     background-image: url(images/hitchhikers-web/mobile7-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
@@ -3687,20 +5192,19 @@ margin-left: 34.04%;
   
     #hhgg2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/cardboard1.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg3 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3708,13 +5212,13 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/hitchhikers/contracapa.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3722,14 +5226,14 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/hitchhikers/cardboard2-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhgg5 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.2% !important;
@@ -3737,13 +5241,13 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/text-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg6 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.2% !important;
@@ -3752,27 +5256,27 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/hitchhikers/fish-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg7 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/destaque-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhgg8 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3780,42 +5284,42 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/guide1-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhgg9 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/guide2.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhgg10 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/whale-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #hhgg11 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -3823,13 +5327,13 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/dolphins-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg12 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -3837,13 +5341,13 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/earth-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #hhgg13 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -3851,7 +5355,8 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/hitchhikers/button-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
     
@@ -3869,20 +5374,19 @@ margin-left: 34.04%;
     
     #globalisation1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/globalisation/capa-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #globalisation2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3890,26 +5394,26 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/globalisation/diagrama.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #globalisation3 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/globalisation-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #globalisation4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -3918,40 +5422,40 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/globalisation/bandeira-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #globalisation5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/alterglobalisation.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #globalisation6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/seattle-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 #globalisation7 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -3959,55 +5463,58 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/banksy-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
     
 }
 
 
 #globalisation8 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
     margin-right: 2.12%;
    margin-bottom: 2.12%;
     float: left;
-    background-image: url(images/globalisation/contracapa-sq.png); 
-    background-size: contain;
+    background-image: url(images/globalisation/contracapa-sq.png);  
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #globalisation9 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/globalisation/capafull-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/rodrigues-lustig/capa-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4015,13 +5522,14 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb1-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues3 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4029,40 +5537,43 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb2.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/seb3-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #rodrigues5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig1-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues6 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4071,54 +5582,58 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig2-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #rodrigues7 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/lustig3.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #rodrigues8 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/rodrigues-lustig/contra-capa-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #blank1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/about-blank/capa-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #blank2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4126,13 +5641,14 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/about-blank/diagrama.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #blank3 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4140,27 +5656,29 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/about-blank/tschichold1-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #blank4 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/tschichold2-s.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #blank5 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4168,26 +5686,28 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/about-blank/maxbill1-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #blank6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/about-blank/maxbill2.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 #blank7 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4196,14 +5716,15 @@ margin-left: 34.04%;
     margin-left: 0;
     float: left;
     background-image: url(images/about-blank/text-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #blank8 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4211,27 +5732,27 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/about-blank/contra-capa-sq.png); 
-    background-size: contain;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
     
 }
 
 
 #dezsete1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/10-7/capa-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete2 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4239,13 +5760,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/manhattan-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 #dezsete3 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4253,27 +5774,27 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/lisbonstory-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 #dezsete4 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/berlin-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 
 #dezsete5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
@@ -4281,13 +5802,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/tokyo-s.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 #dezsete6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4295,13 +5816,13 @@ margin-left: 34.04%;
     margin-left: 0;
     float: left;
     background-image: url(images/10-7/nystories.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 #dezsete7 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4309,28 +5830,28 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/paris-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 
 #dezsete8 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/barcelona.png); 
-    background-size: contain;
+    background-size: cover,
+    
     
 }
 
 
 #dezsete9 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4339,13 +5860,13 @@ margin-left: 34.04%;
     margin-left: 0;
     float: left;
     background-image: url(images/10-7/newyork-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    
     
 }
 
 #dezsete10 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4353,26 +5874,24 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/midnightparis-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete11 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/10-7/rome-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #dezsete12 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4380,14 +5899,12 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/10-7/lisbon-detail-sq.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 #dezsete13 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4395,7 +5912,7 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/10-7/tokyo-detail-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
@@ -4403,20 +5920,18 @@ margin-left: 34.04%;
 
 #purpose1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/purpose/books+ipad-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose2 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4424,26 +5939,24 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/purpose/capamapa.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose3 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/rosto-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4451,14 +5964,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/criticalfaculty-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose5 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4467,26 +5979,23 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/purpose/text-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/3cadernos-s.png); 
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 #purpose7 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4494,14 +6003,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/caderno1-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose8 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4509,14 +6017,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/caderno2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #purpose9 {
    width: 31.92%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 31.92% !important;
@@ -4524,13 +6031,12 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/purpose/caderno3-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose10 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4538,26 +6044,24 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad1.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose11 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad2-sq.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #purpose12 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4566,21 +6070,19 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/purpose/ipad3-sq.png); 
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
 #purpose13 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/purpose/ipad4.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
     
@@ -4588,20 +6090,19 @@ margin-left: 34.04%;
 
 #volta1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.15% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/volta/app1-s.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #volta2 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 97.88% !important;
@@ -4609,13 +6110,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/feed-vert.gif); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #volta3 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4623,13 +6124,13 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/volta/app3.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #volta4 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4637,14 +6138,14 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/volta/app4.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 
 #volta5 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 97.88% !important;
@@ -4653,13 +6154,13 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/gift-vert.gif); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #volta6 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 97.88% !important;
@@ -4667,13 +6168,13 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/volta/challenge-vert.gif); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #volta7 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4681,21 +6182,22 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/volta/profile+msgs.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 
 #volta8 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 97.88% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/volta/profile-vert.gif); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
     
@@ -4704,7 +6206,6 @@ margin-left: 34.04%;
 
 #volta9 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4715,21 +6216,22 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/volta/achievements-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
     
    
      #volta10 {
    width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     padding-top: 97.88% !important;
    margin-bottom: 32%;
     float: left;
     background-image: url(images/volta/profile-vert.gif); 
-    background-size: contain;
+    background-repeat: no-repeat;
     
 }   
     
@@ -4741,21 +6243,21 @@ margin-left: 34.04%;
 
 #craft1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/craft-based/poster-main-s.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 
 #craft2 {
    width: 65.96%;
-    background-size: contain;
+    background-size: cover;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4764,13 +6266,12 @@ margin-left: 34.04%;
    
     float: left;
     background-image: url(images/craft-based/wallpaper-sq.jpg); 
-    background-size: contain;
+    background-repeat: no-repeat !important;
     
 }
 
 #craft3 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.46% !important;
@@ -4778,13 +6279,13 @@ margin-left: 34.04%;
     margin-right: 0;
     float: left;
     background-image: url(images/craft-based/pink.jpg); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #craft4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4792,27 +6293,27 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/craft-based/green-sq.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 
 #craft5 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-based/lilac-s.png); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #craft6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.46% !important;
@@ -4820,27 +6321,26 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/craft-based/orange.jpg); 
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
 #letterpress1 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 6.36%;
     float: left;
     background-image: url(images/letterpress/whatif-red-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 
 #letterpress2 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4848,26 +6348,22 @@ margin-left: 34.04%;
     margin-right: 2.12%;
     float: left;
     background-image: url(images/letterpress/whatif-clear-s.png); 
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 #letterpress3 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/pennylane.png); 
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 #letterpress4 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4876,14 +6372,12 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/letterpress/kaleidoscope-orange-sq.png); 
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 
 #letterpress5 {
    width: 65.96%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4891,39 +6385,35 @@ margin-left: 34.04%;
     margin-left: 34.04%;
     float: left;
     background-image: url(images/letterpress/kaleidoscope-pink-sq.png); 
-    background-size: contain;
-    
+    background-size: cover;
 }
 
 #letterpress6 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 59.45% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/stars-s.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress7 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/rooftop.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
 
 #letterpress8 {
    width: 100%;
-    background-size: contain;
     position: relative;
    left: 0px;
     padding-top: 65.96% !important;
@@ -4931,13 +6421,1581 @@ margin-left: 34.04%;
    margin-bottom: 2.12%;
     float: left;
     background-image: url(images/letterpress/satellite.png); 
-    background-size: contain;
+    background-size: cover;
     
 }
     
+    
+    
+#punkrock1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/punkrockeffect/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#punkrock2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/home-100.png); 
+    background-size: cover;
+    
+}
+
+#punkrock3 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/explore-gif-100-optimized.gif); 
+    background-size: cover;
+    
+}
+
+#punkrock4 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/organize-gif-100-optimized.gif); 
+    background-size: cover;
+    
+}
+
+
+#punkrock5 {
+   width: 31.92%;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/explore-SQ.png); 
+    background-size: cover;
+    
+}
+
+#punkrock6 {
+   width: 31.92%;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/organize-sq.png); 
+    background-size: cover;
+    
+}
+
+#punkrock7 {
+   width: 31.92%;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/punkrockeffect/rock-sq.png); 
+    background-size: cover;
+    
+}
+
+#punkrock8 {
+   width: 31.92%;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/punkrockeffect/punk-sq.png); 
+    background-size: cover;
+}
+
+#punkrock9 {
+   width: 31.92%;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/punkrockeffect/about-sq.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-cities1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/branded-cities/cover-100.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#storyo-cities2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/icons-100.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities3 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/barcelona+berlin.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities4 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/branded-cities/chicago+mex.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#storyo-cities5 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/branded-cities/hanoi+istanbul.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities6 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/lasvegas+marrakech.png); 
+    background-size: cover;
+    
+}
+
+#storyo-cities7 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/lx+ldn+mad-100.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities8 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/branded-cities/ny+paris.png); 
+    background-repeat: no-repeat;
+    
+}
+
+
+#storyo-cities9 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/porto+prague.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities10 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/branded-cities/rio+rome.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities11 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+ margin-right: 2.12%;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/branded-cities/sf+sp.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#storyo-cities12 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/branded-cities/siem+ubud.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+#fb-onboarding1 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/cover-100.png); 
+
+    
+}
+
+
+#fb-onboarding2 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/before-after-100.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#fb-onboarding3 {
+   width: 65.96%;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/london-vert.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#fb-onboarding4 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/manchester.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+#fb-onboarding5 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-onboarding-fb/roma-alcochete-100.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#fb-onboarding6 {
+   width: 65.96%;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34%;
+    float: left; 
+    background-size: cover;
+    background-image: url(images/storyo-onboarding-fb/vertical.gif);
+    background-repeat: no-repeat;
+    
+}
+
+
+
+#welcome-email1 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/welcome-email/cover-100.png); 
+    
+}
+
+
+#welcome-email2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/welcome-email/conjunto-100.png); 
+    
+}
+
+#welcome-email3 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/welcome-email/email1-full.png); 
+    
+}
+
+#welcome-email4 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/welcome-email/email2-full.png); 
+    
+}
+
+
+#welcome-email5 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/welcome-email/email3-full.png); 
+}
+    
+    
+    #storyo-social1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-social/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-social2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-social/amigo-gringo.png); 
+    
+}
+
+#storyo-social3 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 7%;
+    float: left;
+    background-image: url(images/storyo-social/familia-sq.png); 
+    
+}
+
+#storyo-social4 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/barco-sq.png); 
+    
+}
+
+
+#storyo-social5 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/canyon-sq.png);
+}
+
+
+#storyo-social6 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/friends-sq.png); 
+}
+
+
+#storyo-social7 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/storyo-social/natal-full.png);
+}
+
+
+#storyo-social8 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-social/2-0-full.png); 
+    
+}
+
+
+#storyo-social9 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/storyo-social/product-hunt-sq.png); 
+    
+}
+
+
+#storyo-social10 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/sxsw-100.png); 
+}
+
+#storyo-social11 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/collab1-sq.png);
+    
+}
+
+#storyo-social12 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/collab2-sq.png); 
+    
+}
+
+#storyo-social13 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/weather-sq.png); 
+
+    
+}
+
+#storyo-social14 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-social/shutterstock-full.gif); 
+    
+}
+
+
+
+#storyo-screenshots1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-screenshots2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots1-0-100.png); 
+     
+    
+}
+
+#storyo-screenshots3 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-concept-100.png); 
+    
+    
+}
+
+#storyo-screenshots4 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots2-0-original.png); 
+
+    
+}
+
+
+#storyo-screenshots5 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 97.88% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-vert.gif);
+    
+}
+
+
+#storyo-screenshots6 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-top: 0;
+    margin-right: 20.5%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots2-0-colour.png); 
+     
+}
+
+
+#storyo-screenshots7 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-dutch-sq.png);
+    
+}
+
+
+#storyo-screenshots8 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-uk-sq.png); 
+    
+}
+
+
+#storyo-screenshots9 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-spanish-sq.png); 
+    
+}
+
+
+#storyo-screenshots10 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-french-sq.png); 
+}
+
+#storyo-screenshots11 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-germany-sq.png);
+    
+}
+
+#storyo-screenshots12 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-italian-sq.png); 
+    
+    
+}
+
+#storyo-screenshots13 {
+   width: 31.92%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 31.92% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-portuguese-sq.png); 
+    
+
+    
+}
+
+#storyo-screenshots14 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-turkish-full.png); 
 
 }
 
+#storyo-screenshots15 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 0;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-portuguese-br-full.png); 
+    
+}
+
+#storyo-screenshots16 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-spanish-mex-sq.png); 
+    
+}
+
+#storyo-screenshots17 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-malay-sq.png); 
+    
+}
+
+#storyo-screenshots18 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-thai-full.png); 
+    
+}
+
+#storyo-screenshots19 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-vietnamese-sq.png); 
+    
+}
+
+#storyo-screenshots20 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/storyo-screenshots/screenshots-russian-sq.png);
+    
+}
+
+
+#storyo-site1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/storyo-site/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#storyo-site2 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/home2-0-sq.png); 
+    
+}
+
+#storyo-site3 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-1.png); 
+    
+}
+
+#storyo-site4 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-2.png); 
+    
+}
+
+
+#storyo-site5 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/storyo-site/expanded-3.png);
+}
+
+
+#storyo-site6 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/expanded-4-100.png); 
+}
+
+
+#storyo-site7 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/summer1-0-100.png);
+}
+
+
+#storyo-site8 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    margin-left: 34%;
+    float: left;
+    background-image: url(images/storyo-site/insights-sq.png); 
+    
+}
+
+
+#storyo-site9 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/blog-sq.png); 
+    
+}
+
+
+#storyo-site10 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/storyo-site/about-full.png); 
+}
+
+#storyo-site11 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/storyo-site/invite-email-100.png); 
+}
+
+
+#vinho1 {
+   width: 100%;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 6.36%;
+    float: left;
+    background-image: url(images/morgado-quintao/cover-100.png); 
+    background-size: cover;
+    
+}
+
+
+#vinho2 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-right: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/morgadoquintao-site.png); 
+    
+}
+
+#vinho3 {
+   width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/assinaturas-sq.png); 
+    
+}
+
+#vinho4 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 59.45% !important;
+   margin-bottom: 2.12%;
+    float: left;
+    background-image: url(images/morgado-quintao/wine-profile-100.png); 
+    
+}
+
+
+#vinho5 {
+   width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+   margin-bottom: 2.12%;
+    margin-left: 0;
+    float: left;
+    background-image: url(images/morgado-quintao/flyer-full.png);
+}
+  
+    
+   .nutshell-text {
+   
+    font-size: 16px;
+    
+    line-height: 25px;
+}
+    
+    #things-that-matter {
+        
+       font-size: 16px;
+    
+    line-height: 25px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 16px;
+    
+    line-height: 25px;
+        
+    }
+    
+    #nutshell-about {
+    width: 65.96%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 65.96% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-color: #e9fbfe;
+  
+    
+}
+
+
+#photo-about {
+     width: 79.57%;
+    background-size: cover;
+    position: relative;
+    padding-top: 97.88% !important;
+    margin-left: 20.43%;
+    float: left;
+     margin-bottom: 2.12%;
+    background-image: url(images/foto-about.jpg);
+    
+    
+}  
+    
+    
+    #downloads-mobile {
+    
+    width: 65.96%;
+      background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 18% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+    background-color: #d8fcf4;
+        display: block;
+    
+    
+}
+    
+    #downloads {
+        display: none;
+    }
+    
+     #get-portfolio { 
+        
+        margin-top: -27.3%;
+        
+    }
+    
+    #get-cv {
+        
+        margin-top: -27.3%;
+        
+    }
+
+}
+
+
+
+/* END OF MAIN MOBILE QUERY */
+
+
+@media screen and (max-width: 835px) and (min-width: 600px) {
+    
+   .nutshell-text {
+   
+    font-size: 14px;
+    
+    line-height: 23px;
+}  
+    
+    #things-that-matter {
+        
+       font-size: 14px;
+    
+    line-height: 23px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 14px;
+    
+    line-height: 23px;
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 785px) {
+    
+  .nutshell-text {
+   
+    font-size: 18px;
+    
+    line-height: 27px;
+}
+    
+    #nutshell-about {
+    width: 100%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 100% !important;
+    margin-right: 2.12%;
+    margin-bottom: 3%;
+    float: left;
+    background-color: #e9fbfe;
+  
+    
+        
+}
+    
+  #downloads-mobile { 
+     
+      
+      margin-bottom: 3.5%;
+    }
+    
+    #things-that-matter {
+        
+        width: 100%;
+        margin-left: 0;
+        
+       font-size: 18px;
+    
+    line-height: 27px;
+        margin-bottom: 3.5%;
+    }
+    
+    #useless-facts {
+        
+        font-size: 18px;
+    
+    line-height: 27px;
+        
+        width: 100%;
+        
+         
+    }
+
+
+#photo-about {
+     width: 100%;
+    background-size: cover;
+    position: relative;
+    padding-top: 148.4% !important;
+    margin-left: 0;
+    float: left;
+     margin-bottom: 3.5%;
+    background-image: url(images/foto-about.jpg);
+    
+    
+}  
+    
+    #nutshell-about-dynamic {
+   display: block;
+        background-size: cover;
+    background-color: #e9fbfe !important;
+   width: 100%;
+    position: relative;
+    left: 0px;
+    float: left;
+     text-align: left;
+   font-family: 'montserrat-medium';
+    font-size: 14px;
+    color: #525252;
+    line-height: 23px;
+    padding: 20px !important;
+        padding-top: 30px !important;
+        
+    margin-bottom: 3.5%;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+        
+    }
+    
+    #nutshell-about {
+        
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .nutshell-text {
+   
+    font-size: 16px;
+    
+    line-height: 25px;
+}
+    
+    #things-that-matter {
+        
+       font-size: 16px;
+    
+    line-height: 25px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 16px;
+    
+    line-height: 25px;
+        margin-bottom: 50%;
+        
+    }
+
+    
+}
+
+@media screen and (max-width: 560px) {
+    
+    .nutshell-text {
+   
+    font-size: 14px;
+    
+    line-height: 23px;
+        height: auto !important;
+}
+    
+    #things-that-matter {
+        
+       font-size: 14px;
+    
+    line-height: 23px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 14px;
+    
+    line-height: 23px;
+        
+    }
+    
+    
+    
+    
+    
+   
+    
+    
+}
+
+@media screen and (max-width: 1360px) and (min-width: 1216px) {
+    
+    .nutshell-text {
+   
+    font-size: 18px;
+    
+    line-height: 27px;
+}
+    
+    #things-that-matter {
+        
+       font-size: 18px;
+    
+    line-height: 27px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 18px;
+    
+    line-height: 27px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 1215px) and (min-width: 1161px) {
+    
+    .nutshell-text {
+   
+    font-size: 16px;
+    
+    line-height: 25px;
+}
+    #things-that-matter {
+        
+       font-size: 16px;
+    
+    line-height: 25px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 16px;
+    
+    line-height: 25px;
+        
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 1160px) and (min-width: 859px){
+    
+    .nutshell-text {
+   
+    font-size: 16px;
+    
+    line-height: 25px;
+}
+    
+    #things-that-matter {
+        
+       font-size: 16px;
+    
+    line-height: 25px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 16px;
+    
+    line-height: 25px;
+        
+    }
+    
+    #nutshell-about {
+    width: 57.15%;
+    background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 57.15% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    float: left;
+    background-color: #e9fbfe;
+  
+    
+}
+    
+    #get-portfolio { 
+        
+        margin-top: -35.4%;
+        
+    }
+    
+    #get-cv {
+        
+        margin-top: -35.4%;
+        
+    }
+
+
+#photo-about {
+     width: 40.70%;
+    background-size: cover;
+    position: relative;
+    padding-top: 57.15% !important;
+    margin-left: 0;
+    float: left;
+     margin-bottom: 2.12%;
+    background-image: url(images/foto-about.jpg);
+    
+    
+}
+    
+    #downloads {
+    
+    width: 38.7%;
+      background-size: cover;
+    position: relative;
+   left: 0px;
+    padding-top: 13.7% !important;
+    margin-right: 2.12%;
+    margin-bottom: 2.12%;
+    margin-left: 0;
+    margin-top: 0;
+    float: left;
+    background-color: #d8fcf4;
+    
+    
+}
+    
+}
+@media screen and (max-width: 960px) and (min-width: 859px) {
+    
+  
+
+.nutshell-text {
+    padding: 20px;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+      text-align: left;
+    font-family: 'montserrat-medium';
+    font-size: 14px;
+    color: #525252;
+    line-height: 22px;
+}
+
+    #things-that-matter {
+        
+       font-size: 14px;
+    
+    line-height: 22px;
+    }
+    
+    #useless-facts {
+        
+        font-size: 14px;
+    
+    line-height: 22px;
+        
+    }
+
+    
+    
+}
+
+
+@media screen and (max-width: 1150px) {
+    
+    .editorialtext {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family:'league_spartanregular';
+    font-size: 19px;
+color: #FFFFFF;
+line-height: 25px;
+}
+    
+    
+
+    
+}
 
 
 
@@ -4953,6 +8011,25 @@ margin-left: 34.04%;
     right: 0;
     font-family:'league_spartanregular';
     font-size: 18px;
+color: #FFFFFF;
+line-height: 25px;
+}
+    
+
+    
+}
+
+@media screen and (max-width: 480px) {
+    
+    .editorialtext {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-family:'league_spartanregular';
+    font-size: 15px;
 color: #FFFFFF;
 line-height: 25px;
 }
