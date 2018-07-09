@@ -639,7 +639,10 @@ margin-right: 2.12%;
     
 }
 
-.editorialtext {
+
+
+.editorialtextpt {
+    display: block;
     position: absolute;
     padding: 20px;
     top: 0;
@@ -648,9 +651,11 @@ margin-right: 2.12%;
     right: 0;
     font-family:'league_spartanregular';
     font-size: 22px;
-color: #FFFFFF;
+color: #FFFFFF !important;
 line-height: 30px;
 }
+
+
 
 
 #global {
@@ -7968,13 +7973,13 @@ margin-left: 34.04%;
 
     
     
-}  
+
 
 }
 
 @media screen and (max-width: 1150px) {
     
-    .editorialtext {
+     .editorialtextpt {
     position: absolute;
     padding: 10px;
     top: 0;
@@ -7987,6 +7992,7 @@ color: #FFFFFF;
 line-height: 25px;
 }
     
+    
 
     
 }
@@ -7996,7 +8002,7 @@ line-height: 25px;
 
 @media screen and (max-width: 580px) {
     
-    .editorialtext {
+     .editorialtextpt {
     position: absolute;
     padding: 10px;
     top: 0;
@@ -8010,12 +8016,13 @@ line-height: 25px;
 }
     
 
+
     
 }
 
 @media screen and (max-width: 480px) {
     
-    .editorialtext {
+    .editorialtextpt {
     position: absolute;
     padding: 10px;
     top: 0;
