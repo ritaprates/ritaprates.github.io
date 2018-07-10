@@ -4154,7 +4154,7 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-    font-family: 'montserratregular';
+    font-family: 'montserratlight';
      font-size: 16px;
     color: #525252;
     line-height: 30px;
@@ -4759,7 +4759,7 @@ margin-right: 2.12%;
     float: left;
 margin-right: 0%;
     margin-bottom: 2.12%;
-    margin-top: 0.1%;
+    margin-top: 0.1% !important;
     background-image: url(images/welcome-email.png);
     background-repeat: no-repeat;
     
