@@ -70,6 +70,19 @@ body {
 
 }
 
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular_2-webfont.eot');
+    src: url('fonts/montserrat-regular_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montserrat-regular_2-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular_2-webfont.woff') format('woff'),
+         url('fonts/montserrat-regular_2-webfont') format('truetype'),
+         url('fonts/montserrat-regular_2-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 
@@ -1229,7 +1242,7 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-   font-family: 'montserrat-medium';
+   font-family: 'montserratregular';
     font-size: 18px;
     color: #525252;
     line-height: 27px;
@@ -1255,7 +1268,7 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-   font-family: 'montserrat-medium';
+   font-family: 'montserratregular';
     font-size: 18px;
     color: #525252;
     line-height: 27px;
@@ -1280,7 +1293,7 @@ margin-right: 2.12%;
     bottom: 0;
     right: 0;
       text-align: left;
-    font-family: 'montserrat-medium';
+    font-family: 'montserratregular';
     font-size: 18px;
     color: #525252;
     line-height: 27px;
@@ -4141,7 +4154,7 @@ margin-right: 2.12%;
     left: 0px;
     float: left;
      text-align: left;
-    font-family: 'montserrat-light';
+    font-family: 'montserratregular';
      font-size: 16px;
     color: #525252;
     line-height: 30px;
@@ -4172,7 +4185,7 @@ margin-right: 2.12%;
     left: 0px;
     top: 1030px;
      text-align: left;
-    font-family: 'montserrat-light';
+    font-family: 'montserratlight';
     font-size: 16px;
     color: #525252;
     text-align: justify;
@@ -4831,7 +4844,7 @@ margin-right: 0%;
     left: 0px;
     float: left;
      text-align: left;
-    font-family: 'montserrat-light';
+    font-family: 'montserratlight';
      font-size: 14px;
     color: #525252;
     line-height: 28px;
@@ -7766,7 +7779,7 @@ margin-left: 34.04%;
     left: 0px;
     float: left;
      text-align: left;
-   font-family: 'montserrat-medium';
+   font-family: 'montserratregular';
     font-size: 14px;
     color: #525252;
     line-height: 23px;
@@ -7997,7 +8010,7 @@ margin-left: 34.04%;
     bottom: 0;
     right: 0;
       text-align: left;
-    font-family: 'montserrat-medium';
+    font-family: 'montserratregular';
     font-size: 14px;
     color: #525252;
     line-height: 22px;
